@@ -1,2 +1,2 @@
 # HOIGABBA
-plik HOIGABBA.mod na wrzucić do folderu mod
+plik HOIGABBA.mod trzeba wrzucić do folderu mod i podmienić ścieżkę na swoją tzn w miejsce ,,Jan'' wpisać nazwe swojego dysku
