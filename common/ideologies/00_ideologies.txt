@@ -299,4 +299,63 @@ ideologies = {
 		}
 
 	}
+	
+	ezocentryzm = {
+
+		types = {
+
+			ezocentryzm = {
+			}
+
+			nationalfemboyism = {
+			}
+
+			spartanism = {
+			}
+
+			nationalcommunism = {
+			}
+
+			incelism = {
+			}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_AUTISMO_1"
+			"FACTION_NAME_AUTISMO_2"
+			"FACTION_NAME_AUTISMO_3"
+			"FACTION_NAME_AUTISMO_4"
+			"FACTION_NAME_AUTISMO_5"
+		}
+
+		color = { 97 0 255 }
+
+		war_impact_on_world_tension = 0.5
+		faction_impact_on_world_tension = 0.5
+
+		ai_communist = yes
+		ai_ideology_wanted_units_factor = 1.20
+
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = YES
+		}
+
+		can_collaborate = yes
+
+		modifiers = {
+			puppet_cost_factor = -0.3 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 5.0
+			embargo_threshold_factor = 0.5
+		}
+
+		faction_modifiers = {
+
+		}
+
+	}
 }
