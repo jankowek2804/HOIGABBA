@@ -1,0 +1,39 @@
+characters={
+	FSS_kokendbal={
+		name=FSS_KOKENDBAL
+		portraits={
+			civilian={
+				large=GFX_portrait_FSS_kokendbal_large
+				small = GFX_portrait_FSS_kokendbal_small
+			}
+			army = {
+				large = GFX_portrait_FSS_kokendbal_large
+				small = GFX_portrait_FSS_kokendbal_small
+			}
+		}
+		country_leader={
+			ideology=falangism
+			traits = { underage_monarch }
+			desc = FSS_KOKENDBAL_DESC
+			expire="1965.1.1.1"
+		}
+	}
+	FSS_mcarthuwur={
+		name=FSS_MCARTHUWUR
+		portraits={
+			army={
+				large=Portrait_Argentina_Fanny_Schoonheyt
+				small=GFX_portrait_GER_gunther_von_kluge_small
+			}
+		}
+		field_marshal={
+			traits={ armor_officer offensive_doctrine }
+			skill=3
+			attack_skill=5
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=2
+		}
+	}
+}
