@@ -16,7 +16,7 @@ set_technology = {
 }
 
 set_convoys = 1
-
+recruit_character = ARK_natt_falkenhausen
 set_politics = {
 	ruling_party = democratic
 	last_election = "1935.9.8"
@@ -30,5 +30,3 @@ set_popularities = {
 	communism = 15
 	neutrality = 15
 }
-
-recruit_character = ARK_natt_falkenhausen
