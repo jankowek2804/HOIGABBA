@@ -1,0 +1,10 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_portrait_ARK_natt_falkenhausen"
+        texturefile = "gfx/leaders/ARK/portrait_ARK_natt_falkenhausen.dds"
+    }
+    spriteType = {
+        name = "GFX_portrait_ARK_natt_falkenhausen_small"
+        texturefile = "gfx/characters/ARK/portrait_ARK_natt_falkenhausen_small.dds"
+    }
+}
