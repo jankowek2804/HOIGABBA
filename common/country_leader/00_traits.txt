@@ -14,6 +14,18 @@
 
 leader_traits = {
 
+	anarchist_father = {
+		random = no
+		war_support_factor = 0.10
+		industry_free_repair_factor = 0.15
+		cavalry_attack_factor = 0.15
+		cavalry_defence_factor = 0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
     sigma_male = {
 		random = no
 		political_power_factor = 0.25

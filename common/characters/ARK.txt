@@ -1,6 +1,6 @@
 characters = {
 	ARK_natt_falkenhausen = {
-		name = ARK_NATT_FALKENHAUSEN
+		name = ARK_natt_falkenhausen
 		portraits = {
 			civilian = {
 				large = GFX_portrait_ARK_natt_falkenhausen
