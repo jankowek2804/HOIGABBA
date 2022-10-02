@@ -14,7 +14,7 @@ state={
 		victory_points = {
 			721 1
 		}
-		owner = CRI
+		owner = HET
 		buildings = {
 			infrastructure = 3 #was: 5
 			air_base = 3
@@ -22,6 +22,7 @@ state={
 		add_core_of = SOV
 		add_core_of = UKR
 		add_core_of = CRI
+		add_core_of = HET
 	}
 
 	provinces={

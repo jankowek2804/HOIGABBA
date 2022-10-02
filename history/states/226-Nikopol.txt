@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = CRI
+		owner = MCH
 		victory_points = {
 			11437 10 
 		}
@@ -25,6 +25,8 @@ state={
 		}
 		add_core_of = SOV
 		add_core_of = UKR
+		add_core_of = HET
+		add_core_of = MCH
 	}
 
 	provinces={

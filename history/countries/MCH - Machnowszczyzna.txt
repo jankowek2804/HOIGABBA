@@ -1,4 +1,4 @@
-﻿capital = 217 #Sevastopol, should really be Simferopol but that would require more states so Sevastopol will do
+﻿capital = 200 #Hulajpole in Zaporozhe oblast
 
 oob = "MCH_1936"
 

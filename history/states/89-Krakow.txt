@@ -17,6 +17,8 @@ state={
 		}
 		add_core_of = POL
 		add_core_of = UKR
+		add_core_of = HET
+		add_core_of = SOV
 
 	}
 
