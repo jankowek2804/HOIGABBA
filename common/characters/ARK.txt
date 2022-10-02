@@ -1,0 +1,29 @@
+characters = {
+	ARK_natt_falkenhausen = {
+		name=ARK_NATT_FALKENHAUSEN
+		portraits = {
+			civilian = {
+				large="GFX_portrait_ARK_natt_falkenhausen"
+				small="GFX_portrait_ARK_natt_falkenhausen_small"
+			}
+			army = {
+				large="GFX_portrait_ARK_natt_falkenhausen"
+				small="GFX_portrait_ARK_natt_falkenhausen_small"
+		    }
+		}
+		country_leader = {
+			ideology = socialism
+			traits = { dislikes_germany sigma_male }
+			expire="1965.1.1.1"
+			desc = ARK_NATT_FALKENHAUSEN_DESC
+		}
+		field_marshal = {
+			traits = { offensive_doctrine thorough_planner }
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=2
+		}
+	}
+}

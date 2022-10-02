@@ -47,14 +47,15 @@
  centrism_desc:0 "Centryzm to forma rządów, w której dąży się do zdroworozsądkowych rozwiązań dostosowanych do aktualnych i przyszłych potrzeb. Rozwiązania te muszą cieszyć się poparciem opinii publicznej i służyć wspólnemu dobru, mając jednocześnie na uwadze ryzyko i rozmiary potrzeb." # [LocEditor:AwaitingBatchUpdate]
  anarchism:0 "Anarchizm"
  anarchism_desc:0 "Anarchizm to negacja władzy, promocja podziału społeczeństwa na samodzielne i samorządne kolektywy zamiast jednego, scentralizowanego państwa."
- ARK_fascism_party:0 "BC"
- ARK_fascism_party_long:0 "Bractwo Cykady"
- ARK_communism_party:1 "PS"
- ARK_communism_party_long:1 "Partia Syndykalistyczna"
- ARK_democratic_party:0 "PSL"
- ARK_democratic_party_long:0 "Polskie Stronnictwo Ludowe"
- ARK_neutrality_party:0 "Rząd Tymczasowy"
- ARK_neutrality_party_long:0 "Rząd Tymczasowy"
+ 
+ ARK_fascism_party:0 "NFA"
+ ARK_fascism_party_long:0 "Narodowy Front Arkazji"
+ ARK_communism_party:0 "MPA"
+ ARK_communism_party_long:0 "Maoistowska Partia Arkazji"
+ ARK_democratic_party:0 "Bractwo Cykady"
+ ARK_neutrality_party:0 "Korona"
+ ARK_neutrality_party_long:0 "Korona Arkazji"
+ 
  GER_fascism_party:0 "NSDAP"
  GER_fascism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
  GER_communism_party:0 "KPD"

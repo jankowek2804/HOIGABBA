@@ -1,6 +1,6 @@
-ANA	= "countries/Anarchy.txt"
+MCH	= "countries/Machnowszczyzna.txt"
 POD	= "countries/Podlasie.txt"
-CRI	= "countries/Crimea.txt"
+HET	= "countries/Hetmanat.txt"
 OSB = "countries/Burgund.txt"
 ARK = "countries/Arkazja.txt"
 GER	= "countries/Germany.txt"
