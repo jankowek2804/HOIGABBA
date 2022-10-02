@@ -490,6 +490,26 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_ideology_anarchocommunism"
+		texturefile = "gfx/interface/ideologies/anarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_islamism_group"
+		texturefile = "gfx/interface/ideologies/islamism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_esotericism_group"
+		texturefile = "gfx/interface/ideologies/esotericism_group.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_ideology_unknown"
 		texturefile = "gfx/interface/ideologies/unknown.dds"
 		legacy_lazy_load = no
