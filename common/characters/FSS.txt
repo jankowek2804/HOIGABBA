@@ -22,8 +22,8 @@ characters={
 		name=FSS_MCARTHUWUR
 		portraits={
 			army={
-				large=Portrait_Argentina_Fanny_Schoonheyt
-				small=GFX_portrait_GER_gunther_von_kluge_small
+				large=GFX_portrait_FSS_mcarthuwur
+				small=GFX_portrait_FSS_mcarthuwur_small
 			}
 		}
 		field_marshal={
