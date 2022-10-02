@@ -82,6 +82,9 @@ ideologies = {
 
 			anarchist_communism = {
 			}
+			
+			maoism = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -345,5 +348,123 @@ ideologies = {
 		ai_fascist = yes
 		ai_ideology_wanted_units_factor = 1.65
 
+	}
+	
+	islamism = {
+
+		types = {
+			
+			sultan = {
+			}
+			
+			emir = {
+			}
+			
+			khalif = {
+			}
+
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_NONALIGNED_1"
+			"FACTION_NAME_NONALIGNED_2"
+			"FACTION_NAME_NONALIGNED_3"
+			"FACTION_NAME_NONALIGNED_4"
+			"FACTION_NAME_NONALIGNED_5"
+		}
+
+		color = { 0 127 14 }
+
+
+		war_impact_on_world_tension = 0.5
+		faction_impact_on_world_tension = 0.1
+
+		rules = {
+			can_force_government = yes
+			can_puppet = yes
+			can_send_volunteers = yes
+		}
+
+		modifiers = {
+			#increased_influence_factor = 0.2
+			generate_wargoal_tension = 0.5
+			join_faction_tension = 0.5
+			lend_lease_tension = 0.6
+			send_volunteers_tension = 0.6
+			guarantee_tension = 0.3
+			drift_defence_factor = -0.3
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 15.0
+		}
+
+		faction_modifiers = {
+		}
+
+		ai_neutral = yes
+		ai_ideology_wanted_units_factor = 1.15
+	}
+	
+	monarchism = {
+
+		types = {
+
+			absolutism  = {
+			}
+			
+			const_monarchy = {
+			}
+			
+			feudalism = {
+			}
+			
+			tribal = {
+			}
+			
+			khanate = {
+			}
+			
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_NONALIGNED_1"
+			"FACTION_NAME_NONALIGNED_2"
+			"FACTION_NAME_NONALIGNED_3"
+			"FACTION_NAME_NONALIGNED_4"
+			"FACTION_NAME_NONALIGNED_5"
+		}
+
+		color = { 124 27 121 }
+
+
+		war_impact_on_world_tension = 0.25	
+		faction_impact_on_world_tension = 0.1
+
+		rules = {
+			can_force_government = yes
+			can_puppet = yes
+			can_send_volunteers = no
+		}
+
+		modifiers = {
+			#increased_influence_factor = 0.3 #30% easier to influence
+			generate_wargoal_tension = 0.5
+			join_faction_tension = 0.4
+			lend_lease_tension = 0.4
+			send_volunteers_tension = 0.4
+			guarantee_tension = 0.4
+			drift_defence_factor = -0.3
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 10.0
+		}
+
+		faction_modifiers = {
+		}
+
+		ai_neutral = yes #
+		ai_ideology_wanted_units_factor = 1.15
 	}
 }
