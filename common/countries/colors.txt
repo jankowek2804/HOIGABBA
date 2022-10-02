@@ -6,27 +6,27 @@ ARK = {
 }
 
 OSB = {
-	color = RGB { 0 0 0 }
+	color = rgb { 0 0 0 }
 	color_ui = rgb { 0 0 0 }
 }
 
 MCH = {
-	color = RGB { 40 0 0 }
-	color_ui = rgb { 40 0 0 }
+	color = rgb { 60 0 0 }
+	color_ui = rgb { 60 0 0 }
 }
 
 HET = {
-	color = { 255 80 80 }
-	color_ui = { 255 80 80 }
+	color = rgb { 80 150 200}
+	color_ui = rgb { 80 150 200 }
 }
 
 POD = {
-	color = { 150 20 40 }
-	color_ui = { 150 20 40 }
+	color = rgb { 150 20 40 }
+	color_ui = rgb { 150 20 40 }
 }
 
 GER = {
-	color = RGB { 128 128 128 }
+	color = rgb { 128 128 128 }
 	color_ui = rgb { 128 128 128 }
 }
 ENG = {
@@ -49,14 +49,17 @@ LUX = {
 	color = rgb { 65 175 179 }
 	color_ui = rgb { 85 228 233 }
 }
-BEL = { color 	 = rgb { 200 0 0 }
-		color_ui = rgb { 200 0 0 }
-	  }
-HOL = {	color = rgb { 203 138 74 }
-		color_ui = rgb { 255 179 96 }
+BEL = { 
+	color = rgb { 200 0 0 }
+	color_ui = rgb { 200 0 0 }
 }
-CZE = {	color = rgb { 26 62 179 }
-		color_ui = rgb { 26 62 179 }
+HOL = {	
+	color = rgb { 203 138 74 }
+	color_ui = rgb { 255 179 96 }
+}
+CZE = {	
+	color = rgb { 26 62 179 }
+	color_ui = rgb { 26 62 179 }
 }
 POL = {
 	color = rgb { 193 119 150 }
@@ -389,8 +392,8 @@ SER = {
 }
 
 ICE = {
-	color = rgb { 100  125  175 }
-	color_ui = rgb { 100  125  175 }
+	color = rgb { 100 125 175 }
+	color_ui = rgb { 100 125 175 }
 }
 
 UKR = {
@@ -409,8 +412,8 @@ GEO = {
 }
 
 ARM = {
-	color = rgb { 177  255  165 }
-	color_ui = rgb { 177  255  165 }
+	color = rgb { 177 255 165 }
+	color_ui = rgb { 177 255 165 }
 }
 
 LAO = {

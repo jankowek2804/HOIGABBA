@@ -7,52 +7,6 @@ set_technology = {
 
 set_convoys = 20
 
-1939.1.1 = {
-	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = large_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	set_technology = {
-		tech_support = 1
-		tech_recon = 1
-		support_weapons = 1
-		gw_artillery = 1
-
-		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		convoy_sailing = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-		computing_machine = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-	}
-}
-
-
 set_politics = {
 	ruling_party = fascism
 	last_election = "1936.1.1"
@@ -68,9 +22,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Natt Falkenhausen"
+	name = "Heinrich Himmler"
 	desc = ""
-	picture = "Portrait_WLK_tym.dds"
+	picture = "Portrait_OSB_HH.dds"
 	ideology = oligarchism
 	traits = {
 		#
@@ -78,18 +32,18 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Natt Falkenhausen"
+	name = "Heinrich Himmler"
 	desc = ""
-	picture = "Portrait_WLK_JOE.dds"
+	picture = "Portrait_OSB_HH.dds"
 	ideology = liberalism
 	traits = {
 		#
 	}
 }
 create_country_leader = {
-	name = "Natt Falkenhausen"
-	desc = "POLITICS_WLADYSLAW_GOMULKA_DESC"
-	picture = "Portrait_Poland_Wladyslaw_Gomulka.dds"
+	name = "Heinrich Himmler"
+	desc = ""
+	picture = "Portrait_OSB_HH.dds"
 	ideology = leninism
 	traits = {
 		#
@@ -106,110 +60,15 @@ create_country_leader = {
 	}
 }
 
-1939.1.1 = {
-	set_politics = {
-		ruling_party = fascism
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		democratic = 25
-		fascism = 50
-		communism = 5
-		neutrality = 20
-	}
-}
-
 
 create_field_marshal = {
-	name = "Władysław Sikorski"
-	picture = "Portrait_Poland_Wladyslaw_Sikorski.dds"
-	traits = { defensive_doctrine }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 3
-}
-
-create_field_marshal = {
-	name = "Władysław Bortnowski"
-	gfx = "GFX_POL_wladyslaw_bortnowski"
-	traits = {  thorough_planner }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 2
-}
-
-create_field_marshal = {
-	name = "Stanisław Kopański"
-	gfx = "GFX_POL_stanislav_kopanski"
-	traits = {  offensive_doctrine }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Władysław Anders"
-	gfx = "GFX_POL_wladislaw_anders"
-	traits = {  armor_officer }
+	name = "Heinrich Himmler"
+	picture = "Portrait_OSB_HH.dds"
+	traits = { offensive_doctrine }
 	skill = 4
 	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Roman Abraham"
-	gfx = "GFX_POL_roman_abraham"
-	traits = {  }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Wincenty Kowalski"
-	gfx = "GFX_POL_wincenty_kowalski"
-	traits = { trickster }
-	skill = 3
-	attack_skill = 3
 	defense_skill = 2
 	planning_skill = 2
-	logistics_skill = 3
+	logistics_skill = 2
 }
-
-if = {
-	limit = {
-		has_dlc = "La Resistance"
-	}
-	create_operative_leader = {
-		name = "Roman Czerniawski"
-		GFX = GFX_portrait_roman_czerniawski
-		traits = { }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { POL }
-	}
-
-	create_operative_leader = {
-		name = "Krystyna Skarbek"
-		GFX = GFX_portrait_krystyna_skarbek
-		traits = { operative_commando operative_seducer }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		female = yes
-		nationalities = { POL }
-	}
-}
-
 
