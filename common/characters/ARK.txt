@@ -1,14 +1,14 @@
 characters = {
 	ARK_natt_falkenhausen = {
-		name=ARK_NATT_FALKENHAUSEN
+		name = ARK_NATT_FALKENHAUSEN
 		portraits = {
 			civilian = {
-				large="GFX_portrait_ARK_natt_falkenhausen"
-				small="GFX_portrait_ARK_natt_falkenhausen_small"
+				large = GFX_portrait_ARK_natt_falkenhausen
+				small = GFX_portrait_ARK_natt_falkenhausen_small
 			}
 			army = {
-				large="GFX_portrait_ARK_natt_falkenhausen"
-				small="GFX_portrait_ARK_natt_falkenhausen_small"
+				large = GFX_portrait_ARK_natt_falkenhausen
+				small = GFX_portrait_ARK_natt_falkenhausen_small
 		    }
 		}
 		country_leader = {

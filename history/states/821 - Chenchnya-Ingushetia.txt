@@ -11,7 +11,7 @@ state = {
 	}
 
 	history = {
-		owner = ARM
+		owner = DAG
 		buildings = {
 			infrastructure = 2
 		}
@@ -20,6 +20,7 @@ state = {
 		}
 		add_core_of = SOV
 		add_core_of = CIN
+		add_core_of = DAG
 	}
 
 	provinces = {

@@ -49,7 +49,7 @@ LUX = {
 	color = rgb { 65 175 179 }
 	color_ui = rgb { 85 228 233 }
 }
-BEL = { 
+BLR = { 
 	color = rgb { 200 0 0 }
 	color_ui = rgb { 200 0 0 }
 }
@@ -412,8 +412,8 @@ GEO = {
 }
 
 ARM = {
-	color = rgb { 177 255 165 }
-	color_ui = rgb { 177 255 165 }
+	color = rgb { 176 102 180 }
+	color_ui = rgb { 176 102 180 }
 }
 
 LAO = {
@@ -446,9 +446,9 @@ MNT = {
 	color_ui = rgb { 77  90  105 }
 }
 
-BLR = {
-	color = rgb { 180 220 190 }
-	color_ui = rgb { 180 220 190 }
+BEL = {
+	color = rgb { 193 171 8 }
+	color_ui = rgb { 251 222 10 }
 }
 MAN = {
 	color = rgb { 255 120 71 }
@@ -756,8 +756,8 @@ CIN = {
 	color_ui = rgb { 0 153 0 }
 }
 DAG = {
-	color = rgb { 0 204 255 }
-	color_ui = rgb { 0 163 204 }
+	color = rgb { 177 255 165 }
+	color_ui = rgb { 177 255 165 }
 }
 BYA = {
 	color = rgb { 0 64 255 }

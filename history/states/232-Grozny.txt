@@ -11,7 +11,7 @@ state={
 	}
 
 	history = {
-		owner = ARM
+		owner = DAG
 		buildings = {
 			infrastructure = 2
 		}
