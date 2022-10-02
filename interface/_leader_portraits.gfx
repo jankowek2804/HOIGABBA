@@ -26,6 +26,14 @@ spriteTypes = {
 		name = "GFX_portrait_unknown_female"
 		texturefile = "gfx/leaders/leader_unknown_female.dds"
 	}
+		spriteType = {
+		name = "GFX_portrait_FSS_kokendbal_large"
+		texturefile = "gfx/leaders/FSS/portrait_FSS_kokendbal.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_fss_kokendbal_small"
+		texturefile = "gfx/leaders/FSS/portrait_kokendbal_small.dds"
+	}
 
 
 	### GER
