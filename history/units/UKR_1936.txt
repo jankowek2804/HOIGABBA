@@ -1,0 +1,78 @@
+division_template = {
+	name = "Piechota"		
+	division_names_group = UKR_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Kawaleria" 
+	division_names_group = UKR_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }     
+	}
+}
+
+units = {
+	########
+	division= {	# "1 Dywizja Piechoty"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11479
+		division_template = "Piechota"
+		start_experience_factor = 1.5
+		start_equipment_factor = 0.7
+
+	}
+	
+	division= {	# "2 Dywizja Piechoty"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11479
+		division_template = "Piechota"
+		start_experience_factor = 1.5
+		start_equipment_factor = 0.7
+
+	}
+	
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "UKR"
+		}
+		requested_factories = 1
+		progress = 0.25
+		efficiency = 75
+	}
+}

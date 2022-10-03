@@ -1,0 +1,88 @@
+division_template = {
+	name = "Piechota"		
+	division_names_group = MCH_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Konie" 
+	division_names_group = MCH_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }     
+	}
+}
+
+units = {
+	division= {	# "1 Legion Piechoty"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11405
+		division_template = "Piechota"
+		start_experience_factor = 2.0
+		start_equipment_factor = 1.0
+
+	}
+	
+	division= {	# "1 Legion Kawalerii"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9417
+		division_template = "Konie"
+		start_experience_factor = 3.0
+		start_equipment_factor = 1.0
+
+	}
+	
+	division= {	# "2 Legion Kawalerii"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 9417
+		division_template = "Konie"
+		start_experience_factor = 3.0
+		start_equipment_factor = 1.0
+
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "MCH"
+		}
+		requested_factories = 1
+		progress = 0.50
+		efficiency = 100
+	}
+}

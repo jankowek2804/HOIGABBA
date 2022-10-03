@@ -33,7 +33,48 @@ set_politics = {
 set_popularities = {
 	democratic = 50
 	fascism = 20
-	communism = 30
+	neutrality = 20
+	monarchism = 10
+}
+
+create_country_leader = {
+	name = "Bohdan Chmielnicki"
+	desc = "POLITICS_HET_BH_DESC"
+	picture = "Portrait_HET_BH.dds"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Jerzy Juraszko Chmielnicki"
+	desc = "POLITICS_HET_JH_DESC"
+	picture = "Portrait_HET_JH.dds"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Jermak Timofiejewicz"
+	desc = "POLITICS_HET_JT_DESC"
+	picture = "Portrait_HET_JT.dds"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Iwan Mazepa"
+	desc = "POLITICS_HET_IM_DESC"
+	picture = "Portrait_HET_IM.dds"
+	ideology = tribal
+	traits = {
+		#
+	}
 }
 
 
