@@ -525,6 +525,81 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_ideology_liberalism"
+		texturefile = "gfx/interface/ideologies/liberalism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_conservatism"
+		texturefile = "gfx/interface/ideologies/conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_socialism"
+		texturefile = "gfx/interface/ideologies/socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_anarchist_communism"
+		texturefile = "gfx/interface/ideologies/anarchist_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_anti_revisionism"
+		texturefile = "gfx/interface/ideologies/anti_revisionism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_marxism"
+		texturefile = "gfx/interface/ideologies/marxism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_leninism"
+		texturefile = "gfx/interface/ideologies/leninism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_stalinism"
+		texturefile = "gfx/interface/ideologies/stalinism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_maoism"
+		texturefile = "gfx/interface/ideologies/maoism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_falangism"
+		texturefile = "gfx/interface/ideologies/falangism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_rexism"
+		texturefile = "gfx/interface/ideologies/rexism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_nazism"
+		texturefile = "gfx/interface/ideologies/nazism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_gen_nazism"
+		texturefile = "gfx/interface/ideologies/gen_nazism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_khanate"
+		texturefile = "gfx/interface/ideologies/khanate.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_tribal"
+		texturefile = "gfx/interface/ideologies/tribal.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_ideology_unknown"
 		texturefile = "gfx/interface/ideologies/unknown.dds"
 		legacy_lazy_load = no
