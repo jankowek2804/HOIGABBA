@@ -1,6 +1,28 @@
 ﻿l_polish:
+
+############# ARKAZJA
+
 ARK_NATT_FALKENHAUSEN:0 "Natt Falkenhausen"
 ARK_NATT_FALKENHAUSEN_DESC:0 "Socjalizm, ENTP, dowolne zaimki, degrengolada, rozkład wartości moralnych i jebanie twojej matki"
+
+############# SZCZECIN
+
 FSS_KOKENDBAL:0 "Kokendbal"
 FSS_KOKENDBAL_DESC:0 "OWO iw hawte bwack pweople uwu"
 FSS_MCARTHUWUR:0 "McarthUwUr"
+
+############# BURGUNDIA
+
+POLITICS_HH_DESC:0 "NIE MA NADZIEI POD CZARNYM SŁOŃCEM"
+
+######### MACHNOWSZCZYZNA
+
+POLITICS_MACHNO_DESC:0 "Ukraiński anarchista i rewolucjonista, wynalazca taczanki"
+
+########### HETMANAT
+
+POLITICS_HET_BH_DESC:0 "Wielki Hetman Kozacki, bohater narodowy"
+POLITICS_HET_JH_DESC:0 "Hetman Kozacki, sympatyk Turcji i Rosji"
+POLITICS_HET_JT_DESC:0 "Ataman kozacki, rosyjski patriota"
+POLITICS_HET_IM_DESC:0 "Hetman Wojska Zaporoskiego, polski szlachcic i zwolennik Rzeczypospolitej"
+
