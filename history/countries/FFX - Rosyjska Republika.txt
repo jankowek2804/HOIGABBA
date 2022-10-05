@@ -14,8 +14,8 @@ set_technology = {
 	gw_artillery = 1
 }
 
-recruit_character = 
-
+recruit_character = {
+}
 
 set_convoys = 20
 
