@@ -847,3 +847,7 @@ RXX = {
 	color = rgb { 216 195 195 }
 	color_ui = rgb { 216 195 195 }
 }
+FFX = {
+	color = rgb { 82 103 221 }
+	color_ui = rgb { 82 103 221 }
+}
