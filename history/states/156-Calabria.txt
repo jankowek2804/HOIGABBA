@@ -6,12 +6,12 @@ state = {
 	
 	state_category = town
 	history = {
-		owner = TOS
+		owner = RME
 		victory_points = {
 			9990 1 
 		}
 		buildings = {
-			infrastructure = 2 #was: 5
+			infrastructure = 2
 			dockyard = 1
 			fuel_silo = 1
 			9990 = {
@@ -19,7 +19,7 @@ state = {
 			}
 		}
 		add_core_of = ITA
-		add_core_of = TTS
+		add_core_of = RME
 	}
 
 	provinces = {

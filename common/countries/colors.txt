@@ -25,6 +25,27 @@ POD = {
 	color_ui = rgb { 150 20 40 }
 }
 
+SIC = {
+	color = rgb { 71 60 42 }
+	color_ui = rgb { 71 60 42 }
+}
+
+PAP = {
+	color = rgb { 217 183 126 }
+	color_ui = rgb { 217 183 126 }
+}
+
+VNC = {
+	color = rgb { 179 11 0 }
+	color_ui = rgb { 179 11 0 }
+}
+
+RME = {
+	color = rgb { 126 0 1 }
+	color_ui = rgb { 126 0 1 }
+}
+
+
 GER = {
 	color = rgb { 128 128 128 }
 	color_ui = rgb { 128 128 128 }
@@ -86,7 +107,7 @@ SPR = {
 	color_ui = rgb { 255 255 122 }
 }
 ITA = {
-	color = rgb { 67 127 63 }
+	color = rgb { 0 146 70 }
 	color_ui = rgb { 87 165 82 }
 }
 ROM = {

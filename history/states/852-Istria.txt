@@ -8,21 +8,21 @@ state = {
 
 
 	history = {
-		owner = LBV
+		owner = VNC
 		victory_points = { #Fiume (Rijeka)
 			11564 1 
 		}
 		buildings = {
-			infrastructure = 3
-			dockyard = 1
+			infrastructure = 4
+			dockyard = 2
 			11564 = {
-				naval_base = 2
+				naval_base = 4
 			}
 		}
 		add_core_of = ITA
 		add_core_of = YUG
 		add_core_of = CRO
-		add_core_of = LBV
+		add_core_of = VNC
 
 		#CONTROLLED BY ITALY AT GAME START -> ITALIAN NAMES
 		set_province_name = { id = 11564 name = VICTORY_POINTS_11564_ITA }

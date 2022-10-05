@@ -15,18 +15,18 @@ state = {
 		}
 		buildings = {
 			infrastructure = 3
-			arms_factory = 0
+			arms_factory = 1
 			industrial_complex = 1
 			air_base = 5
 			11773 = {
 				naval_base = 3
 			}
 			6891 = {
-				naval_base = 5
+				naval_base = 6
 			}
 		}
 		add_core_of = ITA
-		add_core_of = SPM
+		add_core_of = PAP
 	}
 	provinces = {
 		902 6891 9772 9863 11755 11773 11824 11874 	

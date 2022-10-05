@@ -1,26 +1,26 @@
 
 state = {
 	id = 39
-	name = "STATE_39" # (South Tyrol) Alto Adige -> #TODO_Manu: Should change name to Südtirol when under Austrian/German control
-	manpower = 298290 # was 641650 before Trentino split
+	name = "STATE_39"
+	manpower = 298290
 	
 	state_category = town
 	
 	resources = {
-		aluminium = 14 # was: 22
+		aluminium = 14
 	}
 
 	history = {
 		victory_points = { #Bolzano
 			11598 1
 		}
-		owner = LBV
+		owner = VNC
 		buildings = {
-			infrastructure = 2 # was 3 before split
-			industrial_complex = 1 #Bolzano's industrial zone started in 1934-35 (Steel meels, Lancia...)
+			infrastructure = 2
+			industrial_complex = 1 
 		}
 		add_core_of = ITA
-		add_core_of = LBV
+		add_core_of = VNC
 		add_claim_by = AUS
 	}
 

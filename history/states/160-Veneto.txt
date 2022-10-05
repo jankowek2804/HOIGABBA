@@ -9,7 +9,7 @@ state = {
 	state_category = large_city
 
 	history = {
-		owner = LBV
+		owner = VNC
 		victory_points = { #Venezia
 			11584 10 
 		}
@@ -21,23 +21,17 @@ state = {
 		}
 
 		buildings = {
-			infrastructure = 3 #was: 6
+			infrastructure = 3
 			arms_factory = 2
 			industrial_complex = 4
-			dockyard = 1
+			dockyard = 2
 			air_base = 3
 			11584 = {
-				naval_base = 6
+				naval_base = 8
 			}
 		}
 		add_core_of = ITA
-		add_core_of = LBV
-		1939.1.1 = {
-			buildings = {
-				dockyard = 2
-				industrial_complex = 5
-			}
-		}
+		add_core_of = VNC
 
 	}
 
