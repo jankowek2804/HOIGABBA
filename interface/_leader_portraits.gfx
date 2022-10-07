@@ -1,5 +1,9 @@
 spriteTypes = {
-
+	spriteType = {
+		name = GFX_Portrait_chile_augusto_pinochet
+		texturefile = "gfx/leaders/CHL/portrait_CHL_augusto_pinochet.dds"
+	}
+	
     spriteType = {
 		name = GFX_portrait_ARK_natt_falkenhausen
 		texturefile = "gfx/leaders/ARK/portrait_ARK_natt_falkenhausen.dds"
