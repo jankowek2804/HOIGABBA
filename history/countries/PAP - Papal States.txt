@@ -101,7 +101,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Jan Paweł II"
 	desc = "POLITICS_PAP_JP_DESC"
-	picture = ""
+	picture = "Portrait_PAP_Jan_Paweł_II.dds"
 	ideology = absolutism
 	traits = {
 		#
