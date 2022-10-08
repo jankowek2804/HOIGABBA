@@ -1,0 +1,45 @@
+﻿capital = 563
+
+oob = "RBA_1936"
+
+set_research_slots = 2
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+}
+
+recruit_character = RBA_aleksandr_kolczak
+recruit_character = RBA_anton_denikin
+recruit_character = RBA_michail_drozdovsky
+recruit_character = RBA_lavr_kornilov
+recruit_character = RBA_piotr_wrangel
+recruit_character = RBA_grigorij_rasputin
+
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    esotericism = 3
+	fascism = 12
+	neutrality = 60
+	monarchism = 25
+}
+
+
+
+
+
+

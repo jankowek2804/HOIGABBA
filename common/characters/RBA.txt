@@ -1,0 +1,132 @@
+characters={
+	RBA_aleksandr_kolczak={
+		name=RBA_ALEKSANDR_KOLCZAK
+		portraits={
+			civilian={
+				large = GFX_portrait_RBA_aleksandr_kolczak
+			}
+			army = {
+				large = GFX_portrait_RBA_aleksandr_kolczak
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits = { }
+			desc = RBA_ALEKSANDR_KOLCZAK_DESC
+			expire="1965.1.1.1"
+		}
+		navy_leader = {
+			traits = { spotter arctic_water_expert }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			maneuvering_skill = 3
+			coordination_skill = 2
+		}
+	}
+	RBA_anton_denikin={
+		name=RBA_ANTON_DENIKIN
+		portraits={
+		    civilian={
+				large = GFX_portrait_RBA_anton_denikin
+			}
+			army={
+				large = GFX_portrait_RBA_anton_denikin
+			}
+		}
+		field_marshal={
+			traits={ defensive_doctrine }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
+	RBA_michail_drozdovsky={
+		name=RBA_MICHAIL_DROZDOVSKY
+		portraits={
+		    civilian={
+				large = GFX_portrait_RBA_michail_drozdovsky
+			}
+			army={
+				large = GFX_portrait_RBA_michail_drozdovsky
+			}
+		}
+		corps_commander = {
+			traits = { war_hero winter_specialist }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 4
+		}
+	}
+	RBA_lavr_kornilov={
+		name=RBA_LAVR_KORNILOV
+		portraits={
+		    civilian={
+				large = GFX_portrait_RBA_lavr_kornilov
+			}
+			army={
+				large = GFX_portrait_RBA_lavr_kornilov
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+		country_leader={
+			ideology = fascism_ideology
+			traits = { }
+			desc = RBA_LAVR_KORNILOV_DESC
+			expire="1965.1.1.1"
+		}
+	}
+	RBA_piotr_wrangel={
+		name=RBA_PIOTR_WRANGEL
+		portraits={
+		    civilian={
+				large = GFX_portrait_RBA_piotr_wrangel
+			}
+			army={
+				large = GFX_portrait_RBA_piotr_wrangel
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+		}
+		country_leader={
+			ideology = const_monarchy
+			traits = { }
+			desc = RBA_PIOTR_WRANGEL_DESC
+			expire="1965.1.1.1"
+		}
+	}
+	RBA_grigorij_rasputin={
+		name=RBA_GRIGORIJ_RASPUTIN
+		portraits={
+		    civilian={
+				large = GFX_portrait_RBA_grigorij_rasputin
+			}
+			army={
+				large = GFX_portrait_RBA_grigorij_rasputin
+			}
+		}
+		country_leader={
+			ideology = rasputinism
+			traits = { }
+			desc = RBA_GRIGORIJ_RASPUTIN_DESC
+			expire="1965.1.1.1"
+		}
+	}
+}

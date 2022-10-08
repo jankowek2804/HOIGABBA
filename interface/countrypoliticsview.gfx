@@ -520,6 +520,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_ideology_rasputinism"
+		texturefile = "gfx/interface/ideologies/rasputinism.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_ideology_femboyism"
 		texturefile = "gfx/interface/ideologies/femboyism.dds"
 	}

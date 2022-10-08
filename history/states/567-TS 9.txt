@@ -10,11 +10,11 @@ state={
 	}
 
 	history={
-		owner = RXX
+		owner = RBA
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = RXX
+		add_core_of = RBA
 	}
 
 	provinces={

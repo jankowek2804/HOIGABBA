@@ -27,6 +27,8 @@
  blacksun_desc:0 "NIE MA NADZIEI POD CZARNYM SŁOŃCEM"
  femboyism:0 "Femboizm"
  femboyism_desc:0 "uwu owo femboizm polega na kawaii uroczym zarządzaniu państwem ^^ A TERAZ ZAKŁADAJ KOCIE USZKA I ZAKOLANÓWKI"
+ rasputinism:0 "Rządy Rasputina"
+ rasputinism_desc:0 "Rządy kaznodziei, mistyka, egzorcysty a zarazem wcielenia szatana na ziemi, człowieka siejącego chaos"
  islamism:0 "Islamizm"
  islamism_desc:0 "Państwo islamistyczne"
  sultan:0 "Sułtanat"
@@ -115,6 +117,10 @@
  RME_democratic_party:0 "Senat"
  PAP_monarchism_party:0 "Papież"
  VNC_democratic_party:0 "Wenecka Partia Liberalna"
+ RBA_fascism_party:0 "Partia Narodowa"
+ RBA_esotericism_party:0 "Sekta Rasputina"
+ RBA_monarchism_party:0 "Biała Armia (M)"
+ RBA_neutrality_party:0 "Biała Armia (W)"
  
  
  GER_fascism_party:0 "NSDAP"

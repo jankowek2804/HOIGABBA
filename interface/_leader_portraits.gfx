@@ -1,4 +1,35 @@
 spriteTypes = {
+
+	spriteType = {
+		name = GFX_portrait_RBA_grigorij_rasputin
+		texturefile = "gfx/leaders/RBA/portrait_RBA_grigorij_rasputin.dds"
+	}
+
+	spriteType = {
+		name = GFX_portrait_RBA_piotr_wrangel
+		texturefile = "gfx/leaders/RBA/portrait_RBA_piotr_wrangel.dds"
+	}
+	
+	spriteType = {
+		name = GFX_portrait_RBA_lavr_kornilov
+		texturefile = "gfx/leaders/RBA/portrait_RBA_lavr_kornilov.dds"
+	}
+
+	spriteType = {
+		name = GFX_portrait_RBA_michail_drozdovsky
+		texturefile = "gfx/leaders/RBA/portrait_RBA_michail_drozdovsky.dds"
+	}
+
+	spriteType = {
+		name = GFX_portrait_RBA_aleksandr_kolczak
+		texturefile = "gfx/leaders/RBA/portrait_RBA_aleksandr_kolczak.dds"
+	}
+	
+	spriteType = {
+		name = GFX_portrait_RBA_anton_denikin
+		texturefile = "gfx/leaders/RBA/portrait_RBA_anton_denikin.dds"
+	}
+
 	spriteType = {
 		name = GFX_Portrait_chile_augusto_pinochet
 		texturefile = "gfx/leaders/CHL/portrait_CHL_augusto_pinochet.dds"
