@@ -12,6 +12,14 @@ characters={
 			expire="1965.1.1.1"
 			id=-1
 		}
+		field_marshal = {
+			traits = {  }
+			skill=5
+			attack_skill=4
+			defense_skill=1
+			planning_skill=5
+			logistics_skill=3
+		}
 	}
 	CHL_arturo_alessandri={
 		name="Arturo Alessandri"
