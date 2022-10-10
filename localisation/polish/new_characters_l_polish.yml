@@ -31,7 +31,11 @@ POLITICS_HET_IM_DESC:0 "Hetman Wojska Zaporoskiego, polski szlachcic i zwolennik
 RBA_ALEKSANDR_KOLCZAK:0 "Aleksandr Wasiljewicz Kołczak"
 RBA_ANTON_DENIKIN:0 "Anton Iwanowicz Denikin"
 RBA_MICHAIL_DROZDOVSKY:0 "Michaił Drozdowski"
-RBA_LAVR_KORNILOV:0 "Lawr Kornilov"
-RBA_PIOTR_WRANGEL:0 "Piotr Wrangel"
+RBA_LAVR_KORNILOV:0 "Lawr Gieorgijewicz Kornilov"
+RBA_PIOTR_WRANGEL:0 "Piotr Nikołajewicz Wrangel"
 RBA_GRIGORIJ_RASPUTIN:0 "Grigorij Jefimowicz Rasputin"
+
+########## DEMOKRATYCZNA ROSJA
+
+RRD_ALEKSANDER_KERENSKY:0 "Aleksander Kiereński"
 

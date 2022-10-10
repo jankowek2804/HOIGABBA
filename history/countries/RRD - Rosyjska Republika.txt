@@ -1,4 +1,4 @@
-﻿capital = 571
+﻿capital = 654
 
 oob = "RRD_1936"
 
@@ -14,13 +14,9 @@ set_technology = {
 	gw_artillery = 1
 }
 
-recruit_character = {
-}
+recruit_character = RRD_aleksander_kerensky
 
 set_convoys = 20
-
-
-
 
 set_politics = {
 	ruling_party = democratic
@@ -30,10 +26,9 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 50
-	fascism = 25
-	communism = 0
-	neutrality = 25
+	democratic = 76
+	communism = 8
+	neutrality = 16
 }
 
 

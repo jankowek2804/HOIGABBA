@@ -1,0 +1,19 @@
+characters={
+	RRD_aleksander_kerensky={
+		name=RRD_ALEKSANDER_KERENSKY
+		portraits={
+			civilian={
+				large = GFX_portrait_RRD_aleksander_kerensky
+			}
+			army = {
+				large = GFX_portrait_RRD_aleksander_kerensky
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			traits = { }
+			desc = RRD_ALEKSANDER_KERENSKY_DESC
+			expire="1965.1.1.1"
+		}
+	}
+}
