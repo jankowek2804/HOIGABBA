@@ -8,4 +8,4 @@ tags={
 }
 name="Hearts of Gaming"
 replace_path="gfx/loading_screens"
-supported_version="1.12.2"
+supported_version="1.12.*"
