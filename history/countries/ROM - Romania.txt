@@ -1,0 +1,141 @@
+﻿capital = 84
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "ROM_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "ROM_1936_nsb"
+}
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "ROM_1936_air_bba"
+		set_technology = {
+			iw_small_airframe = 1
+			aa_lmg = 1
+			engines_1 = 1
+		}
+	else = {
+		set_air_oob = "ROM_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+
+		}
+	}
+}
+
+set_research_slots = 3
+set_stability = 0.6
+set_war_support = 0.6
+
+recruit_character = ROM_gheorghe_tatarescu
+recruit_character = ROM_constantin_ion_parhon
+recruit_character = ROM_armand_calinescu
+recruit_character = ROM_corneliu_codreanu
+recruit_character = ROM_petre_dumitrescu
+recruit_character = ROM_ion_antonescu
+recruit_character = ROM_ioan_mihail_racovita
+recruit_character = ROM_gheorghe_avramescu
+recruit_character = ROM_constantin_sanatescu
+recruit_character = ROM_horia_macellariu
+recruit_character = ROM_gheorghe_potopeanu
+recruit_character = ROM_emanoil_ionescu
+recruit_character = ROM_gheorghe_mihail
+recruit_character = ROM_ermil_gheorghiu
+recruit_character = ROM_nicolae_sova
+recruit_character = ROM_gheorghe_jienescu
+recruit_character = ROM_paul_teodorescu
+recruit_character = ROM_gheorghe_vasiliu
+recruit_character = ROM_iuliu_maniu
+recruit_character = ROM_petru_groza
+recruit_character = ROM_gheorghe_gheorghiu_dej
+recruit_character = ROM_nicolae_malaxa
+recruit_character = ROM_mihail_sturdza
+recruit_character = ROM_gheorghe_argeseanu
+recruit_character = ROM_king_michael
+recruit_character = ROM_octavian_goga
+
+# Starting tech
+set_technology = {
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	basic_train = 1
+}
+
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+	}
+}
+
+add_ideas = neutrality_idea
+
+#Kick off kings crazy life
+if = {
+	limit = {
+		has_dlc = "Death or Dishonor"
+	}
+	ROM = {
+		#Pick from list of the sane events first
+		random_list = {
+			100 = { country_event = { id = DOD_romania.81 days = 2 random_days = 20 } }
+		}
+	}
+}
+
+set_convoys = 1
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1933.12.20"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	fascism = 10
+	communism = 70
+	neutrality = 20
+}
+
+### VARIANTS ###
+# 1936 Start #
+if = {
+	limit = {
+		has_dlc = "By Blood Alone"
+	}
+	create_equipment_variant = {
+		name = "IAR 14" 
+		type = small_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = light_mg_2x
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = empty
+		}
+	}
+}

@@ -1,6 +1,11 @@
 spriteTypes = {
 
 	spriteType = {
+		name = GFX_portrait_WAL_vlad_palownik
+		texturefile = "gfx/leaders/WAL/portrait_WAL_vlad_palownik.dds"
+	}
+
+	spriteType = {
 		name = GFX_portrait_RRD_aleksander_kerensky
 		texturefile = "gfx/leaders/RRD/portrait_RRD_aleksander_kerensky.dds"
 	}

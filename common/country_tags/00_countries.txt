@@ -10,6 +10,7 @@ PAP = "countries/Papal States.txt"
 RME = "countries/Rome.txt"
 RRD = "countries/Rosyjska Republika.txt"
 RBA = "countries/Biała Armia.txt"
+WAL = "countries/Wallachia.txt"
 
 GER	= "countries/Germany.txt"
 ENG = "countries/United Kingdom.txt"

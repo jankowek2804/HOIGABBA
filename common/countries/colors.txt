@@ -45,6 +45,22 @@ RME = {
 	color_ui = rgb { 126 0 1 }
 }
 
+WAL = {
+	color = rgb { 248 255 209 }
+	color_ui = rgb { 248 255 209 }
+}
+
+MOL = {
+	color = rgb { 235 168 33 }
+	color_ui = rgb { 235 168 33 }
+}
+
+ROM = {
+	color = rgb { 251 209 21 }
+	color_ui = rgb { 251 209 21 }
+}
+
+###
 
 GER = {
 	color = rgb { 128 128 128 }
@@ -109,10 +125,6 @@ SPR = {
 ITA = {
 	color = rgb { 0 146 70 }
 	color_ui = rgb { 87 165 82 }
-}
-ROM = {
-	color = rgb { 215 196 72 }
-	color_ui = rgb { 255 255 120 }
 }
 YUG = {
 	color = rgb { 72 73 126 }

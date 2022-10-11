@@ -1,0 +1,27 @@
+characters = {
+	WAL_vlad_palownik = {
+		name = WAL_VLAD_PALOWNIK
+		portraits = {
+			civilian = {
+				large = GFX_portrait_WAL_vlad_palownik
+			}
+			army = {
+				large = GFX_portrait_WAL_vlad_palownik
+		    }
+		}
+		country_leader = {
+			ideology = feudalism
+			traits = { }
+			expire="1965.1.1.1"
+			desc = WAL_VLAD_PALOWNIK_DESC
+		}
+		field_marshal = {
+			traits = {  }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+	}
+}
