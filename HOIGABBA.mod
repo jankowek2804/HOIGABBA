@@ -8,5 +8,6 @@ tags={
 }
 name="Hearts of Gaming"
 replace_path="gfx/loading_screens"
+replace_path="common/national_focus"
 supported_version="1.12.*"
 path="C:/Users/Jan/Documents/Paradox Interactive/Hearts of Iron IV/mod/HOIGABBA"
