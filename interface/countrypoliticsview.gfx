@@ -525,6 +525,16 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_ideology_misticism"
+		texturefile = "gfx/interface/ideologies/misticism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_satanism"
+		texturefile = "gfx/interface/ideologies/satanism.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_ideology_femboyism"
 		texturefile = "gfx/interface/ideologies/femboyism.dds"
 	}
@@ -572,6 +582,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_maoism"
 		texturefile = "gfx/interface/ideologies/maoism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_national_communism"
+		texturefile = "gfx/interface/ideologies/national_communism.dds"
 	}
 	
 	spriteType = {

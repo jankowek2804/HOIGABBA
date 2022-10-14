@@ -16,7 +16,7 @@ set_technology = {
 }
 
 set_convoys = 10
-recruit_character = 
+recruit_character = WAL_vlad_palownik
 set_politics = {
 	ruling_party = monarchism
 	last_election = "1935.9.8"

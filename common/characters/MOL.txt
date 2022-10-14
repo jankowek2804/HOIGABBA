@@ -1,0 +1,53 @@
+characters={
+	MOL_jan_srogi = {
+		name = MOL_JAN_SROGI
+		portraits = {
+			civilian = {
+				large = GFX_portrait_MOL_jan_srogi
+			}
+			army = {
+				large = GFX_portrait_MOL_jan_srogi
+		    }
+		}
+		country_leader = {
+			ideology = despotism
+			traits = { }
+			expire="1965.1.1.1"
+			desc = MOL_JAN_SROGI_DESC
+		}
+	}
+	MOL_vladimir_voronin = {
+		name = MOL_VLADIMIR_VORONIN
+		portraits = {
+			civilian = {
+				large = GFX_portrait_MOL_vladimir_voronin
+			}
+			army = {
+				large = GFX_portrait_MOL_vladimir_voronin
+		    }
+		}
+		country_leader = {
+			ideology = leninism
+			traits = { }
+			expire="1965.1.1.1"
+			desc = MOL_VLADIMIR_VORONIN_DESC
+		}
+	}
+	MOL_aleksander_jan_cuza = {
+		name = MOL_ALEKSANDER_JAN_CUZA
+		portraits = {
+			civilian = {
+				large = GFX_portrait_MOL_aleksander_jan_cuza
+			}
+			army = {
+				large = GFX_portrait_MOL_aleksander_jan_cuza
+		    }
+		}
+		country_leader = {
+			ideology = const_monarchy
+			traits = { }
+			expire="1965.1.1.1"
+			desc = MOL_ALEKSANDER_JAN_CUZA
+		}
+	}
+}

@@ -15,6 +15,12 @@ characters = {
 			expire="1965.1.1.1"
 			desc = WAL_VLAD_PALOWNIK_DESC
 		}
+		country_leader = {
+			ideology = satanism
+			traits = { }
+			expire="1965.1.1.1"
+			desc = WAL_VLAD_PALOWNIK_DESC
+		}
 		field_marshal = {
 			traits = {  }
 			skill=2

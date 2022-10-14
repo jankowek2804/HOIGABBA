@@ -85,6 +85,9 @@ ideologies = {
 			
 			maoism = {
 			}
+			
+			national_communism = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -314,6 +317,12 @@ ideologies = {
 			}
 			
 			rasputinism = {
+			}
+			
+			misticism = {
+			}
+			
+			satanism = {
 			}
 
 		}

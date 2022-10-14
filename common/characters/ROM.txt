@@ -1,0 +1,89 @@
+characters = {
+	ROM_nicolae_ceausescu = {
+		name = ROM_NICOLAE_CEAUSESCU
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_ROM_nicolae_ceausescu"
+			}
+		}
+		country_leader = {
+			ideology = national_communism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	ROM_king_michael = {
+		name = ROM_KING_MICHAEL
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_ROM_michael_i"
+			}
+		}
+		country_leader = {
+			ideology = const_monarchy
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	ROM_ion_antonescu = {
+		name = ROM_ION_ANTONESCU
+		portraits = {
+			army = {
+				large = "GFX_portrait_ROM_ion_antonescu"
+			}
+			civilian = {
+				large = "GFX_portrait_ROM_ion_antonescu"
+			}
+		}
+		
+		field_marshal = {
+			traits = { offensive_doctrine }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = -1
+		}
+		
+		country_leader = {
+			ideology = fascism_ideology
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	
+	ROM_petre_dumitrescu = {
+		name = ROM_PETRE_DUMITRESCU
+		portraits = {
+			army = {
+				large = "GFX_portrait_ROM_petre_dumitrescu"
+			}
+		}
+		field_marshal = {
+			traits = { logistics_wizard offensive_doctrine }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	
+	ROM_corneliu_zelea_codreanu = {
+		name = ROM_CORNELIU_ZELEA_CODREANU
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_ROM_corneliu_zelea_codreanu"
+			}
+		}
+		country_leader = {
+			ideology = misticism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}

@@ -41,5 +41,20 @@ RRD_ALEKSANDER_KERENSKY:0 "Aleksander Kiereński"
 
 ######### WOŁOSZCZYZNA
 
-WAL_vlad_palownik:0 "Wład III Palownik"
+WAL_VLAD_PALOWNIK:0 "Wład III Palownik"
+
+######### MOŁDAWIA
+
+MOL_JAN_SROGI:0 "Jan Srogi"
+MOL_VLADIMIR_VORONIN:0 "Vladimir Voronin"
+MOL_ALEKSANDER_JAN_CUZA:0 "Aleksander Jan Cuza"
+
+######### RUMUNIA
+
+ROM_NICOLAE_CEAUSESCU:0 "Nicolae Ceausescu"
+ROM_KING_MICHAEL:0 "Michał I"
+ROM_ION_ANTONESCU:0 "Ion Antonescu"
+ROM_PETRE_DUMITRESCU:0 "Petru Dumitrescu"
+ROM_CORNELIU_ZELEA_CODREANU:0 "Corneliu Zelea Codreanu"
+
 
