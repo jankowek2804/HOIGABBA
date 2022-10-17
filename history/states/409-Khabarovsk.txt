@@ -22,7 +22,7 @@ state = {
 				naval_base = 1
 			}
 		}
-		add_core_of = RXX
+		add_core_of = RRD
 		add_core_of = JAP
 		add_core_of = VLA
 	}

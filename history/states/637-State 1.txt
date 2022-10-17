@@ -13,7 +13,7 @@ state = {
 			}
 
 		}
-		add_core_of = RXX
+		add_core_of = RRD
 		add_core_of = FER
 	}
 

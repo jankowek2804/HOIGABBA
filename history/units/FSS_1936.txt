@@ -43,7 +43,7 @@ units = {
 		}
 		location = 6282
 		division_template = "ASGeje"
-		start_experience_factor = 3.0
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
