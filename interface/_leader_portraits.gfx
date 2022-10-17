@@ -7317,11 +7317,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = GFX_portrait_Michał_II
-		texturefile = gfx/leaders/ROM/Portrait_romania_michael_i.dds
-	}
-
-	spriteType = {
 		name = GFX_portrait_Jose_Mendes_dos_Reis
 		texturefile = gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds
 	}
