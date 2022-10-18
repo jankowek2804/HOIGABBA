@@ -8,7 +8,7 @@ state={
 	history={
 		owner = UKR
 		victory_points = {
-			11479 3
+			11479 10
 		}
 		#victory_points = {
 		#	3483 5
@@ -21,7 +21,6 @@ state={
 		add_core_of = POL
 		add_core_of = UKR
 		add_core_of = HET
-		add_core_of = SOV
 	}
 
 	provinces={

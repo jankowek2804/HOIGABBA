@@ -13,6 +13,8 @@ state = {
 		}
 		add_core_of = RBA
 		add_core_of = TAY
+		add_core_of = RRD
+		add_core_of = SOV
 	}
 
 	provinces = {

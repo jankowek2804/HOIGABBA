@@ -13,6 +13,8 @@ state = {
 		add_core_of = RBA
 		add_core_of = CKK
 		add_core_of = FER
+		add_core_of = RRD
+		add_core_of = SOV
 
 	}
 

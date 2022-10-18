@@ -13,6 +13,8 @@ state={
 		}
 		add_core_of = RRD
 		add_core_of = ALT
+		add_core_of = RBA
+		add_core_of = SOV
 		victory_points = {
 			4800 1 #Oyrot-Tura/Gorno-Altaysk
 		}

@@ -26,6 +26,8 @@ state = {
 		add_core_of = RRD
 		add_core_of = JAP
 		add_core_of = VLA
+		add_core_of = RBA
+		add_core_of = SOV
 	}
 
 	provinces = {
