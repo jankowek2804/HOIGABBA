@@ -1,0 +1,33 @@
+ideas = {
+	country = {
+		ARK_chujowa_armia = {
+
+			picture = ARK_chujowa_armia
+
+			available = {
+			}
+
+			cancel = {
+			}
+			
+			removal_cost = -1
+
+			allowed = {
+				original_tag = ARK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				army_attack_factor = -0.1
+				army_core_defence_factor = -0.1
+				army_speed_factor = -0.1
+				army_morale_factor = -0.1
+				land_reinforce_rate = -0.1
+			}
+
+		}
+	}
+}

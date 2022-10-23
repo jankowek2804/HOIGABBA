@@ -33,3 +33,7 @@ set_popularities = {
 	monarchism = 5
 	anarchist = 5
 }
+
+add_ideas = {
+	ARK_chujowa_armia
+}

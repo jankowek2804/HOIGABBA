@@ -1,0 +1,8 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_idea_ARK_chujowa_armia"
+		texturefile = "gfx/interface/ideas/ARK_chujowa_armia.dds"
+	}		
+			
+}
