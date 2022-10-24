@@ -4,5 +4,17 @@ spriteTypes = {
 		name = "GFX_idea_ARK_chujowa_armia"
 		texturefile = "gfx/interface/ideas/ARK_chujowa_armia.dds"
 	}		
+	spriteType = {
+		name = "GFX_idea_ARK_oligarchiczna_konstytucja"
+		texturefile = "gfx/interface/ideas/ARK_oligarchiczna_konstytucja.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_ARK_zniesiona_konstytucja"
+		texturefile = "gfx/interface/ideas/ARK_zniesiona_konstytucja.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_ARK_three_year_plan_idea"
+		texturefile = "gfx/interface/ideas/ARK_three_year_plan_idea.dds"
+	}	
 			
 }

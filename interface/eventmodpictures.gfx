@@ -1,0 +1,12 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_porozmawiajmy_o_polityce"
+		texturefile = "gfx/event_pictures/porozmawiajmy_o_polityce.dds"
+	}
+	spriteType = {
+		name = "GFX_kochampiwo"
+		texturefile = "gfx/event_pictures/kochampiwo.dds"
+	}
+	
+}

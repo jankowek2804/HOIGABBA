@@ -11,10 +11,13 @@ bookmarks = {
 			history = "ARK_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
-
+				ARK_chujowa_armia
+				ARK_oligarchiczna_konstytucja
 			}
 			focuses = {
-
+				ARK_zniesienie_konstytucji
+				ARK_porozmawiajmy_o_polityce
+				ARK_the_three_year_plan
 			}
 		}
 		"USA"={

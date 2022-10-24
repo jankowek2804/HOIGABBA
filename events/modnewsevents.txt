@@ -1,0 +1,23 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = mod_news
+
+# KOCHAM PIWO
+news_event = {
+	id = kochampiwo.1
+	title = kochampiwo.1.t
+	desc = kochampiwo.1.d
+	picture = GFX_kochampiwo
+	
+	major = yes
+	
+	trigger = {
+		date = 1936.2.2
+	}
+	option = {
+		name = kochampiwo.1.a
+	}
+}
+

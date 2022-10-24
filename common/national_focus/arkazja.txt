@@ -1,0 +1,113 @@
+focus_tree = {
+	id = arkazja_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ARK
+		}
+	}
+	default = no
+
+
+	############################
+	#### INDUSTRIAL SECTION ####
+	############################
+
+	focus = {
+		id = ARK_the_three_year_plan
+		icon = GFX_focus_ARK_the_three_year_plan
+		x = 2
+		y = 0
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_tech_bonus = {
+				name = ARK_the_three_year_plan
+				bonus = 1.0
+				uses = 1
+				category = construction_tech
+			}
+			add_timed_idea = {
+				idea = ARK_three_year_plan_idea
+				days = 1095
+			}
+		}
+	}
+
+
+	############################
+	##### POLITICS SECTION #####
+	############################
+
+	focus = {
+		id = ARK_zniesienie_konstytucji
+		icon = GFX_focus_ARK_zniesienie_konstytucji
+		mutually_exclusive = { }
+		
+		x = 10
+		y = 0
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		
+		#allow_branch = {
+		#	if = {
+		#		limit = {
+		#			has_game_rule = {
+		#				rule = obsolete_focus_branches_visibility
+		#				option = HIDE
+		#			}
+		#		}
+		#		NOT = {
+		#			OR = {
+		#				has_completed_focus = 
+		#			}
+		# 		}
+		#	}
+		#}
+		continue_if_invalid = yes
+		cancel_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICS }
+		completion_reward = {
+			add_political_power = 150
+			swap_ideas = {
+				add_idea = ARK_zniesiona_konstytucja
+				remove_idea = ARK_oligarchiczna_konstytucja
+			}
+		}
+	}
+
+	focus = {
+		id = ARK_porozmawiajmy_o_polityce
+		icon = GFX_focus_ARK_porozmawiajmy_o_polityce
+		prerequisite = { focus = ARK_zniesienie_konstytucji }
+		
+		x = 0
+		y = 1
+		relative_position_id = ARK_zniesienie_konstytucji
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT } 
+		completion_reward = {
+			country_event = arkazja.0
+		}
+	}
+
+	
+	
+}

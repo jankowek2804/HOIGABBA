@@ -1,0 +1,41 @@
+﻿###########################
+# Arkazja Events
+###########################
+
+add_namespace = arkazja
+
+#Porozmawiajmy o Polityce - cel narodowy
+country_event = {
+	id = arkazja.0
+	title = arkazja.0.t
+	desc = arkazja.0.d
+	picture = GFX_porozmawiajmy_o_polityce
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = arkazja.0.a
+		ai_chance = { factor = 50 }
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.1
+		}
+	}
+
+	option = {
+		name = arkazja.0.b
+		ai_chance = { factor = 50 }
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = monarchism
+			popularity = 0.1
+		}
+	}
+}

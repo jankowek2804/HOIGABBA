@@ -29,5 +29,84 @@ ideas = {
 			}
 
 		}
+		ARK_oligarchiczna_konstytucja = {
+
+			picture = ARK_oligarchiczna_konstytucja
+
+			available = {
+			}
+
+			cancel = {
+			}
+			
+			removal_cost = -1
+
+			allowed = {
+				original_tag = ARK
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -0.1
+				stability_factor = -0.05
+			}
+
+		}
+		ARK_zniesiona_konstytucja = {
+
+			picture = ARK_zniesiona_konstytucja
+
+			available = {
+			}
+
+			cancel = {
+			}
+			
+			removal_cost = -1
+
+			allowed = {
+				original_tag = ARK
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				stability_factor = -0.15
+			}
+
+		}
+		ARK_three_year_plan_idea = {
+
+			picture = ARK_three_year_plan_idea
+
+			available = {
+			}
+
+			cancel = {
+			}
+			
+			removal_cost = -1
+
+			allowed = {
+				original_tag = ARK
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				production_speed_industrial_complex_factor = 0.5 
+				industrial_capacity_factory	= 0.1
+			}
+
+		}
 	}
 }
