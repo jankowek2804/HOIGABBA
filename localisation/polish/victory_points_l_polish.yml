@@ -480,7 +480,7 @@
  VICTORY_POINTS_10966:0 "Nova Lisboa"
  VICTORY_POINTS_10929:0 "Salisbury"
  VICTORY_POINTS_191:0 "Elisabethville"
- VICTORY_POINTS_5117:0 "Léopoldville"
+ VICTORY_POINTS_5117:0 "Kinszasa"
  VICTORY_POINTS_5139:0 "Libreville"
  VICTORY_POINTS_8193:0 "Brazzaville"
  VICTORY_POINTS_5210:0 "Mombasa"
@@ -1051,6 +1051,15 @@
  VICTORY_POINTS_3757:0 "Bałta"
  VICTORY_POINTS_741:0 "Tyraspol"
  VICTORY_POINTS_506:0 "Kopernik"
+ VICTORY_POINTS_584:0 "Fild"
+ VICTORY_POINTS_4128:0 "Kasai"
+ VICTORY_POINTS_9986:0 "Mwene-Ditu"
+ VICTORY_POINTS_988:0 "Boende"
+ VICTORY_POINTS_2154:0 "Butembo"
+ VICTORY_POINTS_4201:0 "Goma"
+ VICTORY_POINTS_191:0 "Lubumbashi"
+ VICTORY_POINTS_4393:0 "Kaiserheim"
+ VICTORY_POINTS_12240:0 "Wewak"
  
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===

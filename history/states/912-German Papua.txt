@@ -1,0 +1,35 @@
+state={
+	id=912
+	name="STATE_912"
+	provinces={
+		1389 2129 4393 7614 10423 11004 11018 12154 12193 12240 12400 12428 
+	}
+	history={
+		add_core_of = PNG
+		owner = AST
+		buildings = {
+			infrastructure = 1
+			air_base = 3
+			12154 = {
+				naval_base = 1
+
+			}
+			12240 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			4393 3 
+		}
+		victory_points = {
+			12240 1 
+		}
+
+	}
+	manpower=503463
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

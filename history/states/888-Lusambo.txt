@@ -1,23 +1,26 @@
+
 state={
 	id=888
 	name="STATE_888"
-	manpower = 885237
-	state_category = pastoral 
 
-	history = {
+	history={
 		owner = COG
 		buildings = {
-			infrastructure = 1
-
+			infrastructure = 1 
+			industrial_complex = 1
 		}
-		add_core_of = COG 
+		add_core_of = COG
+		victory_points = {
+			9986 5 
+		}
 
 	}
 
 	provinces={
-		1731 1929 2024 4128 7716 8016 9986 10858 
+		1731 2024 8016 9986 10858 
 	}
-
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+	manpower=885237
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }
