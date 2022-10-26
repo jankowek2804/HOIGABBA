@@ -13,7 +13,7 @@ characters={
 			ideology=despotism
 			traits = { }
 			desc = RBA_ALEKSANDR_KOLCZAK_DESC
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 		}
 		navy_leader = {
 			traits = { spotter arctic_water_expert }
@@ -84,7 +84,7 @@ characters={
 			ideology = fascism_ideology
 			traits = { }
 			desc = RBA_LAVR_KORNILOV_DESC
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 		}
 	}
 	RBA_piotr_wrangel={
@@ -109,7 +109,7 @@ characters={
 			ideology = const_monarchy
 			traits = { }
 			desc = RBA_PIOTR_WRANGEL_DESC
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 		}
 	}
 	RBA_grigorij_rasputin={
@@ -126,7 +126,7 @@ characters={
 			ideology = rasputinism
 			traits = { }
 			desc = RBA_GRIGORIJ_RASPUTIN_DESC
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 		}
 	}
 }

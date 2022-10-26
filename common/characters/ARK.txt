@@ -14,7 +14,7 @@ characters = {
 		country_leader = {
 			ideology = socialism
 			traits = { dislikes_germany sigma_male }
-			expire="1965.1.1.1"
+			expire = "1965.1.1"
 			desc = ARK_NATT_FALKENHAUSEN_DESC
 		}
 		field_marshal = {

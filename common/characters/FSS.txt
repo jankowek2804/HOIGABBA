@@ -15,7 +15,7 @@ characters={
 			ideology=falangism
 			traits = { underage_monarch }
 			desc = FSS_KOKENDBAL_DESC
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 		}
 	}
 	FSS_mcarthuwur={

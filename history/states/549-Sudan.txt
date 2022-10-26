@@ -7,7 +7,7 @@ state={
 
 	history = {
 		victory_points = {
-			2096 1 
+			10827 1 
 		}
 		owner = EGY
 		add_core_of = SUD

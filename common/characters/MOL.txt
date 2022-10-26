@@ -12,7 +12,7 @@ characters={
 		country_leader = {
 			ideology = despotism
 			traits = { }
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			desc = MOL_JAN_SROGI_DESC
 		}
 	}
@@ -29,7 +29,7 @@ characters={
 		country_leader = {
 			ideology = leninism
 			traits = { }
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			desc = MOL_VLADIMIR_VORONIN_DESC
 		}
 	}
@@ -46,7 +46,7 @@ characters={
 		country_leader = {
 			ideology = const_monarchy
 			traits = { }
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			desc = MOL_ALEKSANDER_JAN_CUZA
 		}
 	}

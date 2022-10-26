@@ -9,13 +9,13 @@ characters={
 		country_leader={
 			traits={ dictator }
 			ideology=despotism
-			expire="1965.1.1.1"
+			expire = "1965.1.1"
 			id=-1
 		}
 		country_leader={
 			traits={ }
-			ideology=anarchocapitalism
-			expire="1965.1.1.1"
+			ideology = anarchocapitalism
+			expire = "1965.1.1"
 			id=-1
 		}
 		field_marshal = {
@@ -36,7 +36,7 @@ characters={
 		}
 		country_leader={
 			ideology=liberalism
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			id=-1
 		}
 	}
@@ -49,7 +49,7 @@ characters={
 		}
 		country_leader={
 			ideology=nazism
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			id=-1
 		}
 	}
@@ -62,7 +62,7 @@ characters={
 		}
 		country_leader={
 			ideology=marxism
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			id=-1
 		}
 	}
@@ -75,7 +75,7 @@ characters={
 		}
 		country_leader={
 			ideology=socialism
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			id=-1
 		}
 	}
@@ -107,7 +107,7 @@ characters={
 		country_leader={
 			ideology=oligarchism
 			traits={ captain_of_industry }
-			expire="1947.1.1.12"
+			expire="1947.1.1"
 			id=-1
 		}
 	}
