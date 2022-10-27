@@ -1,5 +1,16 @@
 spriteTypes = {	
-
+	SpriteType = { 
+	name = "GFX_goal_prc_john_xina"
+	texturefile = "gfx/interface/goals/goal_prc_john_xina.dds"
+	}
+	SpriteType = { 
+	name = "GFX_goal_prc_social_credit"
+	texturefile = "gfx/interface/goals/goal_prc_social_credit.dds"
+	}
+	SpriteType = { 
+	name = "GFX_goal_PRC_UNIFIED"
+	texturefile = "gfx/interface/goals/goal_PRC_UNIFIED.dds"
+	}
 	SpriteType = {
 	name = "GFX_focus_ARK_the_three_year_plan"
 	texturefile = "gfx/interface/goals/focus_ARK_the_three_year_plan.dds"			
