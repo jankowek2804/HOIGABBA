@@ -1,5 +1,8 @@
 spriteTypes = {	
-
+	spriteType = {
+		name = "GFX_idea_PRC_demokracja"
+		texturefile = "gfx/interface/ideas/PRC_prc_democrat.dds"
+	}
 	spriteType = {
 		name = "GFX_idea_ARK_chujowa_armia"
 		texturefile = "gfx/interface/ideas/ARK_chujowa_armia.dds"

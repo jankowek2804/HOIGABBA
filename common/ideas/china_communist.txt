@@ -1,0 +1,57 @@
+ideas = {
+	country = {
+		PRC_socjal = {
+
+			picture = generic_democratic_drift_bonus
+
+			available = {
+			}
+
+			cancel = {
+			}
+			
+			removal_cost = -1
+
+			allowed = {
+				original_tag = PRC
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+			
+			modifier = {
+				democratic_drift = 0.1
+			}
+
+		}
+	
+	
+		PRC_connection = {
+
+			picture = PRC_demokracja
+
+			available = {
+				democratic > 0.4
+			}
+
+			cancel = {
+			}
+			
+			removal_cost = -1
+
+			allowed = {
+				original_tag = PRC
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+			
+			modifier = {
+				communism_drift = -0.15
+			}
+		}
+	
+	}
+}
