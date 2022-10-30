@@ -32,7 +32,6 @@ ideas = {
 			picture = PRC_demokracja
 
 			available = {
-				democratic > 0.4
 			}
 
 			cancel = {
@@ -50,6 +49,25 @@ ideas = {
 			
 			modifier = {
 				communism_drift = -0.15
+			}
+		}
+
+		PRC_lead_the_minor_democracies = {
+
+			picture = prc_lead_the_minor_democracies
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				democratic_drift = 0.05
 			}
 		}
 	

@@ -57,12 +57,13 @@ focus_tree = {
 #
 #		}
 #	}
-
+	##Demokracja
 	focus = {
 		id = PRC_socjaldemokracja
 		icon = GFX_focus_chi_united_front
-		x = 2
+		x = 3
 		y = 0
+		mutually_exclusive = { focus =  PRC_komunizm}
 
 		cost = 5
 
@@ -119,14 +120,14 @@ focus_tree = {
 		completion_reward = {
 			add_timed_idea = {
 				idea = PRC_socjal
-				days = 365
+				days = 1000
 			}
 		}
 	}
 	focus = {
 		id = PRC_badania
 		icon = GFX_goal_generic_scientific_exchange
-		prerequisite = { focus = PRC_socjaldemokracja}
+		prerequisite = { focus = PRC_socjaldemokracja focus= PRC_komunizm}
 		x = 2
 		y = 1
 		relative_position_id = PRC_socjaldemokracja
@@ -149,18 +150,228 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
 			add_research_slot = 1
 		}
 	}
 	focus = {
+		id = PRC_armor_dem
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = PRC_socjaldemokracja}
+		x = -2
+		y = 1
+		relative_position_id = PRC_socjaldemokracja
+		
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 4
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			army_experience = 5
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
 		id = PRC_connect
 		icon = GFX_focus_generic_china1
-		prerequisite = { focus = PRC_socjaldemokracja}
+		prerequisite = { focus = PRC_demokracja}
 		x = 0
 		y = 2
 		relative_position_id = PRC_socjaldemokracja
+		
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 4
+		}
+
+		available = {
+			democratic > 0.3
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_timed_idea = {
+				idea = PRC_connection
+				days = 365
+			}
+		}
+	}
+	focus = {
+		id = PRC_allies
+		icon = GFX_focus_chi_british_cooperation
+		prerequisite = { focus = PRC_connect}
+		x = -1
+		y = 3
+		mutually_exclusive = { focus =  PRC_alone_dem}
+		relative_position_id = PRC_socjaldemokracja
+		
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 4
+		}
+
+		available = {
+			has_government = democratic
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			ENG = { add_to_faction = PRC }
+		}
+	}
+	focus = {
+		id = PRC_alone_dem
+		icon = GFX_goal_generic_alliance
+		prerequisite = { focus = PRC_connect}
+		x = 1
+		y = 3
+		mutually_exclusive = { focus =  PRC_allies}
+		relative_position_id = PRC_socjaldemokracja
+		
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 4
+		}
+
+		available = {
+			has_government = democratic
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			create_faction = "Stowarzyszenie Wolnych Azjatów"
+		}
+	}
+	focus = {
+		id = PRC_support_dem
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = PRC_allies focus = PRC_alone_dem}
+		x = 0
+		y = 4
+		relative_position_id = PRC_socjaldemokracja
+		
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 4
+		}
+
+		available = {
+			has_government = democratic
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			every_other_country = {
+				limit = {
+					capital_scope = {
+						is_on_continent = asia
+					}
+				}
+				add_opinion_modifier = { target = PRC modifier = large_increase }
+				add_timed_idea = { idea = PRC_lead_the_minor_democracies days = 1095 }
+			}
+		}
+	}
+	##KOMUNZIM
+	focus = {
+		id = PRC_komunizm
+		icon = GFX_goal_prc_communism
+		x = 7
+		y = 0
+		mutually_exclusive = { focus =  PRC_socjaldemokracja}
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 4
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+			}
+	}
+	focus = {
+		id = PRC_mao
+		icon = GFX_focus_prc_maoism
+		prerequisite = { focus = PRC_komunizm}
+		x = 0
+		y = 1
+		relative_position_id = PRC_komunizm
 		
 
 		cost = 10
@@ -183,10 +394,71 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			add_timed_idea = {
-				idea = PRC_connection
-				days = 365
-			}
+			add_country_leader_trait = man_of_the_nation
+		}
+	}
+	focus = {
+		id = PRC_jedno
+		icon = GFX_focus_chi_one_china_policy
+		prerequisite = { focus = PRC_mao}
+		x = 1
+		y = 2
+		relative_position_id = PRC_komunizm
+		mutually_exclusive = { focus =  PRC_proletariat}
+		
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 4
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = PRC_proletariat
+		icon = GFX_goal_prc_global
+		prerequisite = { focus = PRC_mao}
+		x = -1
+		y = 2
+		relative_position_id = PRC_komunizm
+		mutually_exclusive = { focus =  PRC_jedno}
+		
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 4
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
 		}
 	}
 }

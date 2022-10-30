@@ -1,5 +1,13 @@
 spriteTypes = {	
 	SpriteType = { 
+	name = "GFX_goal_prc_global"
+	texturefile = "gfx/interface/goals/goal_prc_global.dds"
+	}
+	SpriteType = { 
+	name = "GFX_goal_prc_communism"
+	texturefile = "gfx/interface/goals/goal_prc_communism.dds"
+	}
+	SpriteType = { 
 	name = "GFX_goal_prc_john_xina"
 	texturefile = "gfx/interface/goals/goal_prc_john_xina.dds"
 	}

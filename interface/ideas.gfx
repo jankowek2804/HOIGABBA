@@ -7190,5 +7190,9 @@ spriteTypes = {
 		name = "GFX_idea_generic_democracy_banned"
 		texturefile = "gfx/interface/ideas/idea_generic_democracy_banned.dds"
 	}
-			
+	#PRC
+	spriteType = {
+		name = "GFX_idea_prc_lead_the_minor_democracies"
+		texturefile = "gfx/interface/ideas/idea_prc_lead_the_minor_democracies.dds"
+	}
 }
