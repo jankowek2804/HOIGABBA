@@ -1,5 +1,12 @@
 spriteTypes = {
-
+	spriteType = {
+		name = "GFX_portrait_prc_li_jishen"
+		texturefile = "gfx/leaders/PRC/portrait_PRC_li_jishen.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_prc_li_jishen_small"
+		texturefile = "gfx/leaders/PRC/portrait_PRC_li_jishen_small.dds"
+	}
 	spriteType = {
 		name = "GFX_portrait_ROM_nicolae_ceausescu"
 		texturefile = "gfx/leaders/ROM/portrait_ROM_nicolae_ceausescu.dds"

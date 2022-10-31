@@ -27,6 +27,34 @@ characters={
 			id=-1
 		}
 	}
+	PRC_li_jishen={
+		name=PRC_li_jishen
+		portraits={
+			army={
+				large="GFX_portrait_prc_li_jishen"
+				small=GFX_portrait_PRC_li_jishen_small
+			}
+			civilian={
+				large="GFX_portrait_prc_li_jishen"
+				small=GFX_portrait_PRC_li_jishen_small
+			}
+		}
+		field_marshal={
+			traits={ trait_cautious politically_connected defensive_doctrine }
+			skill=4
+			attack_skill=2
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=-1
+		}
+		country_leader={
+			ideology=socialism
+			traits={ }
+			expire="1959.1.1"
+			id=-1
+		}
+	}
 
 	PRC_zhu_de={
 		name=PRC_zhu_de

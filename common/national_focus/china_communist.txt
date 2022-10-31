@@ -198,8 +198,8 @@ focus_tree = {
 		icon = GFX_focus_generic_china1
 		prerequisite = { focus = PRC_demokracja}
 		x = 0
-		y = 2
-		relative_position_id = PRC_socjaldemokracja
+		y = 1
+		relative_position_id = PRC_demokracja
 		
 
 		cost = 10
@@ -233,9 +233,9 @@ focus_tree = {
 		icon = GFX_focus_chi_british_cooperation
 		prerequisite = { focus = PRC_connect}
 		x = -1
-		y = 3
+		y = 1
 		mutually_exclusive = { focus =  PRC_alone_dem}
-		relative_position_id = PRC_socjaldemokracja
+		relative_position_id = PRC_connect
 		
 
 		cost = 10
@@ -266,9 +266,9 @@ focus_tree = {
 		icon = GFX_goal_generic_alliance
 		prerequisite = { focus = PRC_connect}
 		x = 1
-		y = 3
+		y = 1
 		mutually_exclusive = { focus =  PRC_allies}
-		relative_position_id = PRC_socjaldemokracja
+		relative_position_id = PRC_connect
 		
 
 		cost = 10
@@ -298,9 +298,9 @@ focus_tree = {
 		id = PRC_support_dem
 		icon = GFX_goal_support_democracy
 		prerequisite = { focus = PRC_allies focus = PRC_alone_dem}
-		x = 0
-		y = 4
-		relative_position_id = PRC_socjaldemokracja
+		x = 1
+		y = 1
+		relative_position_id = PRC_allies
 		
 
 		cost = 10
@@ -402,8 +402,8 @@ focus_tree = {
 		icon = GFX_focus_chi_one_china_policy
 		prerequisite = { focus = PRC_mao}
 		x = 1
-		y = 2
-		relative_position_id = PRC_komunizm
+		y = 1
+		relative_position_id = PRC_mao
 		mutually_exclusive = { focus =  PRC_proletariat}
 		
 
@@ -434,8 +434,8 @@ focus_tree = {
 		icon = GFX_goal_prc_global
 		prerequisite = { focus = PRC_mao}
 		x = -1
-		y = 2
-		relative_position_id = PRC_komunizm
+		y = 1
+		relative_position_id = PRC_mao
 		mutually_exclusive = { focus =  PRC_jedno}
 		
 
