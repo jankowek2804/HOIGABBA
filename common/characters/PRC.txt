@@ -53,6 +53,7 @@ characters={
 			traits={ }
 			expire="1959.1.1"
 			id=-1
+			desc = PRC_li_jishen_DESC
 		}
 	}
 
