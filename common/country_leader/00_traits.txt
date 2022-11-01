@@ -13,7 +13,14 @@
 ###Todo remove commented advisor experience gains
 
 leader_traits = {
-
+	supporter_of_monarchy = {
+		random = no
+		monarchism_drift = 0.05
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
 	anarchist_father = {
 		random = no
 		war_support_factor = 0.10
@@ -21,7 +28,7 @@ leader_traits = {
 		cavalry_attack_factor = 0.15
 		cavalry_defence_factor = 0.15
 		
-		ai_will_do = {
+		ai_will_do = { 
 			factor = 1
 		}
 	}

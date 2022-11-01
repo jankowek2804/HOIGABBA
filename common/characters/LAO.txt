@@ -1,0 +1,61 @@
+characters = {
+	LAO_souphanouvong = {
+		name = LAO_SOUPHANOUVONG
+		portraits = {
+			civilian = {
+				large = GFX_portrait_LAO_souphanouvong
+			}
+			army = {
+				large = GFX_portrait_LAO_souphanouvong
+		    }
+		}
+		country_leader = {
+			ideology = marxism
+			traits = {  }
+			expire = "1965.1.1"
+			desc = LAO_SOUPHANOUVONG_DESC
+		}
+	}
+	LAO_sisavang_vong = {
+		name = LAO_SISAVANG_VONG
+		portraits = {
+			civilian = {
+				large = GFX_portrait_LAO_sisavang_vong
+			}
+			army = {
+				large = GFX_portrait_LAO_sisavang_vong
+		    }
+		}
+		country_leader = {
+			ideology = absolutism
+			traits = {  }
+			expire = "1965.1.1"
+			desc = LAO_SISAVANG_VONG_DESC
+		}
+	}
+	LAO_kou_voragong = {
+		name = LAO_KOU_VORAGONG
+		portraits = {
+			civilian = {
+				large = GFX_portrait_LAO_kou_voragong
+			}
+			army = {
+				large = GFX_portrait_LAO_kou_voragong
+		    }
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+			expire = "1965.1.1"
+			desc = LAO_KOU_VORAGONG_DESC
+		}
+		field_marshal = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	
+}

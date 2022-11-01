@@ -497,8 +497,8 @@ ARM = {
 }
 
 LAO = {
-	color = rgb { 176  102  136 }
-	color_ui = rgb { 176  102  136 }
+	color = rgb { 255 89 97 }
+	color_ui = rgb { 255 89 97 }
 }
 
 INS = {

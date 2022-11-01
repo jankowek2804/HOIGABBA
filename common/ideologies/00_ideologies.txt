@@ -88,6 +88,13 @@ ideologies = {
 			
 			national_communism = {
 			}
+
+			polpotism = {
+			}
+
+			ho_chi_minh = {
+				
+			}
 		}
 
 		dynamic_faction_names = {

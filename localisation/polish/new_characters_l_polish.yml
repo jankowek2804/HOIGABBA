@@ -60,4 +60,26 @@ ROM_ION_ANTONESCU:0 "Ion Antonescu"
 ROM_PETRE_DUMITRESCU:0 "Petru Dumitrescu"
 ROM_CORNELIU_ZELEA_CODREANU:0 "Corneliu Zelea Codreanu"
 
+######## KAMBODŻA
 
+CAM_POL_POT:0 "Pol Pot"
+CAM_POL_POT_DESC:0 "Pol Pot, w rzeczywistości Saloth Sar, Brat Numer Jeden, Wujek Sekretarz. Z zawodu nauczyciel, był kiedyś we Francji. Razem z Czerwonymi Khmerami doszedł do władzy obalając monarchę Norodoma Sihanouka"
+CAM_NORODOM_SIHANOUK:0 "Norodom Sihanouk"
+CAM_NORODOM_SIHANOUK_DESC:0 "Wielki Książe Kambodży"
+CAM_LON_NOL:0 "Lon Nol"
+CAM_LON_NOL_DESC:0 "Kambodżański generał i polityk"
+
+####### LAOS
+LAO_SOUPHANOUVONG:0 "Souphanouvong"
+LAO_SOUPHANOUVONG_DESC:0 "Czerwony Książe Laosu"
+LAO_SISAVANG_VONG:0 "Sisavang Vong"
+LAO_SISAVANG_VONG_DESC:0 "Król Laosu"
+LAO_KOU_VORAGONG:0 "Kou Voragong"
+LAO_KOU_VORAGONG_DESC:0 "Laotański wojskowy i polityk, despota"
+
+######### WIETNAM
+VIN_NGO_DINH_DIEM:0 "Ngo Dinh Diem"
+VIN_NGO_DINH_DIEM_DESC:0 "Wietnamski polityk demokratyczny, prezydent"
+VIN_HO_CHI_MINH:0 "Ho Chi Minh"
+VIN_HO_CHI_MINH_DESC:0 "HO, HO, HO CHI MINH, HO HOOOO HO CHI MINH"
+VIN_VO_NGUYEN_GIAP:0 "Vo Nguyen Giap"

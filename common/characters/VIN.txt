@@ -1,0 +1,55 @@
+characters = {
+	VIN_ngo_dinh_diem = {
+		name = VIN_NGO_DINH_DIEM
+		portraits = {
+			civilian = {
+				large = GFX_portrait_VIN_ngo_dinh_diem
+			}
+			army = {
+				large = GFX_portrait_VIN_ngo_dinh_diem
+		    }
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = {  }
+			expire = "1965.1.1"
+			desc = VIN_NGO_DINH_DIEM_DESC
+		}
+	}
+	VIN_ho_chi_minh = {
+		name = VIN_HO_CHI_MINH
+		portraits = {
+			civilian = {
+				large = GFX_portrait_VIN_ho_chi_minh
+			}
+			army = {
+				large = GFX_portrait_VIN_ho_chi_minh
+		    }
+		}
+		country_leader = {
+			ideology = ho_chi_minh
+			traits = {  }
+			expire = "1965.1.1"
+			desc = VIN_HO_CHI_MINH_DESC
+		}
+	}
+	VIN_vo_nguyen_giap = {
+		name = VIN_VO_NGUYEN_GIAP
+		portraits = {
+			civilian = {
+				large = GFX_portrait_VIN_vo_nguyen_giap
+			}
+			army = {
+				large = GFX_portrait_VIN_vo_nguyen_giap
+		    }
+		}
+		field_marshal = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	
+}

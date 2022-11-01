@@ -17,6 +17,8 @@ state={
 
 		}
 		add_core_of = FSS
+		add_core_of = GER
+
 
 	}
 

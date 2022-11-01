@@ -30,7 +30,7 @@
  rasputinism:0 "Rządy Rasputina"
  rasputinism_desc:0 "Rządy Rasputina - Rządy kaznodziei, mistyka, egzorcysty a zarazem wcielenia szatana na ziemi, człowieka siejącego chaos"
  islamism:0 "Islamizm"
- islamism_desc:0 "Islamizm"
+ islamism_noun:0 "Islamizm"
  islamism_desc:0 "Państwo islamistyczne"
  sultan:0 "Sułtanat"
  sultan_desc:0 "W sułtanatach rządzi Sułtan"
@@ -96,6 +96,10 @@
  national_communism_desc:0 "Narodowy Komunizm łączy w sobie cechy komunizmu i skrajnie prawicowego nacjonalizmu"
  misticism:0 "Mistycyzm"
  misticism_desc:0 "Mistycyzm wiąże się z doświadczeniami mistyczno-religijnymi i tego typu obrzędami"
+ polpotism:0 "Polpotyzm"
+ polpotism_desc:0 "Ideologia będąca kambodżańską wersją maoizmu, stworzonym przez Polpota maoizmem na sterydach"
+ ho_chi_minh:0 "Myśl Ho Chi Minha"
+ ho_chi_minh_desc:0 "Wietnamski odpowiednik marksizmu wzorowany na postaci Ho Chi Minha i postulatach wysuwanych przez Vietkong"
  
  ARK_fascism_party:0 "NFA"
  ARK_fascism_party_long:0 "Narodowy Front Arkazji"
@@ -612,14 +616,12 @@
  ISR_democratic_party:0 "Mapai"
  ISR_fascism_party:0 "Helpam"
  ISR_neutrality_party:0 "Rada Centralna"
- VIN_fascism_party:0 "Liga Odrodzenia Wietnamu" #or Reformation Society   
- VIN_democratic_party:0 "Partia Can Lao" #formed in early 50s
- VIN_communism_party:0 "Komunistyczna Partia Wietnamu" #Viet Minh was more important in early years
- VIN_neutrality_party:0 "Việt Nam Quốc Dân Đảng"
- CAM_fascism_party:0 "Partia Khmerów"
- CAM_democratic_party:0 "Partia Demokratyczna" #formed in 1946 
- CAM_communism_party:0 "Komunistyczna Partia Kambodży" # aka Khmer Communist Party or a different party Krom Pracheachon aka Krom
- CAM_neutrality_party:0 "Sangkum Reastr Niyum" # or just Sangkum 1955, democratic but right leaning and anti communist
+ VIN_democratic_party:0 "Demokratyczna Partia Wietnamu"
+ VIN_communism_party:0 "Viet Minh"
+ CAM_monarchism_party:0 "Zwolennicy Norodoma"
+ CAM_democratic_party:0 "Partia Demokratyczna"
+ CAM_communism_party:0 "Czerwoni Khmerzy"
+ CAM_neutrality_party:0 "Oddziały Lon Nola"
  INS_fascism_party:0 "Nowy Ład" #inspired by right wingers from 1960s
  INS_democratic_party:0 "PNI" #Indonesian National Party founded by Sukarno
  INS_communism_party:0 "PKI" #Partai Komunis Indonesia
@@ -628,10 +630,9 @@
  MAL_democratic_party:0 "Narodowa Organizacja Zjednoczonych Malajów" #or UMNO or PEKEMBAR
  MAL_communism_party:0 "Komunistyczna Partia Malajów" #or MCP
  MAL_neutrality_party:0 "Kesatuan Melayu Muda" #or KMM 
- LAO_fascism_party:0 "Partia Centralizacji Plemion"
- LAO_democratic_party:0 "Partia Demokratyczna"
  LAO_communism_party:0 "Pathet Lao"
- LAO_neutrality_party:0 "Rojaliści"
+ LAO_monarchism_party:0 "Rojaliści"
+ LAO_neutrality_party:0 "Rząd Wojskowy"
  MNT_fascism_party:0 "Zieloni"
  MNT_democratic_party:0 "Liga Demokratyczna"
  MNT_communism_party:0 "Komunistyczna Partia Czarnogóry" #or KPCG

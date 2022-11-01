@@ -111,4 +111,49 @@ spriteTypes = {
 		texturefile = "gfx/leaders/FSS/portrait_kokendbal_small.dds"
 	}
 
+	spriteType = {
+		name = GFX_portrait_LAO_souphanouvong
+		texturefile = "gfx/leaders/LAO/portrait_LAO_souphanouvong.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_LAO_sisavang_vong
+		texturefile = "gfx/leaders/LAO/portrait_LAO_sisavang_vong.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_LAO_kou_voragong
+		texturefile = "gfx/leaders/LAO/portrait_LAO_kou_voragong.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_VIN_ngo_dinh_diem
+		texturefile = "gfx/leaders/VIN/portrait_VIN_ngo_dinh_diem.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_VIN_ho_chi_minh
+		texturefile = "gfx/leaders/VIN/portrait_VIN_ho_chi_minh.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_VIN_vo_nguyen_giap
+		texturefile = "gfx/leaders/VIN/portrait_VIN_vo_nguyen_giap.dds"
+	}
+
+	spriteType = {
+		name = GFX_portrait_CAM_pol_pot
+		texturefile = "gfx/leaders/CAM/portrait_CAM_pol_pot.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_CAM_norodom_sihanouk
+		texturefile = "gfx/leaders/CAM/portrait_CAM_norodom_sihanouk.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_CAM_norodom_sihanouk_small
+		texturefile = "gfx/leaders/CAM/portrait_CAM_norodom_sihanouk_small.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_CAM_lon_nol
+		texturefile = "gfx/leaders/CAM/portrait_CAM_lon_nol.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_CAM_lon_nol_small
+		texturefile = "gfx/leaders/CAM/portrait_CAM_lon_nol_small.dds"
+	}
 }
