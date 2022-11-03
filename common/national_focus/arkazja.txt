@@ -18,10 +18,10 @@ focus_tree = {
 
 	focus = {
 		id = ARK_the_three_year_plan
-		icon = GFX_focus_ARK_the_three_year_plan
+		icon = GFX_focus_ARK_the_three_year_plan 
 		x = 2
 		y = 0
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 10
@@ -37,6 +37,287 @@ focus_tree = {
 			add_timed_idea = {
 				idea = ARK_three_year_plan_idea
 				days = 1095
+			}
+		}
+	}
+
+	focus = {
+		id = ARK_tobacco_industry
+		icon = GFX_focus_ARK_tobacco_industry
+		prerequisite = { focus = ARK_the_three_year_plan }
+		x = -1
+		y = 1
+		relative_position_id = ARK_the_three_year_plan
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = ARK_place_budowy
+		icon = GFX_focus_ARK_place_budowy
+		prerequisite = { focus = ARK_the_three_year_plan }
+		x = 1
+		y = 1
+		relative_position_id = ARK_the_three_year_plan
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 4
+			}
+		}
+	}
+
+	focus = {
+		id = ARK_zaklady_rusznikarskie
+		icon = GFX_focus_ARK_zaklady_rusznikarskie
+		prerequisite = { focus = ARK_tobacco_industry }
+		prerequisite = { focus = ARK_place_budowy }
+		x = 1
+		y = 1
+		relative_position_id = ARK_tobacco_industry
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = ARK_naprawa_drog
+		icon = GFX_focus_ARK_naprawa_drog
+		prerequisite = { focus = ARK_place_budowy }
+		x = 1
+		y = 1
+		relative_position_id = ARK_place_budowy
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			custom_effect_tooltip = ARK_naprawa_drog_tt
+			hidden_effect = {
+				762 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 5
+							instant_build = yes
+						}
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = ARK_autostrada
+		icon = GFX_focus_ARK_autostrada
+		prerequisite = { focus = ARK_naprawa_drog }
+		x = 0
+		y = 1
+		relative_position_id = ARK_naprawa_drog
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			build_railway = {
+				level = 2
+				path = { 506 6464 }
+			}
+		}
+	}
+
+	focus = {
+		id = ARK_huta_katowice
+		icon = GFX_focus_ARK_huta_katowice
+		prerequisite = { focus = ARK_zaklady_rusznikarskie }
+		mutually_exclusive = { focus = ARK_huta_zabrze }
+		x = -2
+		y = 1
+		relative_position_id = ARK_zaklady_rusznikarskie
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			762 = {
+				add_resource = {
+					type = steel
+					amount = 8
+				}
+			}	
+		}
+	}
+
+	focus = {
+		id = ARK_huta_zabrze
+		icon = GFX_focus_ARK_huta_zabrze
+		prerequisite = { focus = ARK_zaklady_rusznikarskie }
+		mutually_exclusive = { focus = ARK_huta_katowice }
+		x = 0
+		y = 1
+		relative_position_id = ARK_zaklady_rusznikarskie
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			762 = {
+				add_resource = {
+					type = aluminium
+					amount = 4
+				}
+				add_resource = {
+					type = steel
+					amount = 4
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = ARK_trzysta_procent
+		icon = GFX_focus_ARK_trzysta_procent
+		prerequisite = { focus = ARK_huta_katowice }
+		x = 0
+		y = 1
+		relative_position_id = ARK_huta_katowice
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			762 = {
+				add_resource = {
+					type = steel
+					amount = 8
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = ARK_eksport
+		icon = GFX_focus_ARK_eksport
+		prerequisite = { focus = ARK_huta_zabrze }
+		x = 0
+		y = 1
+		relative_position_id = ARK_huta_zabrze
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = export_focus
+				}
+				swap_ideas = {
+					remove_idea = export_focus
+					add_idea = free_trade
+				}
+			}
+			762 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = ARK_przemysl_alkoholowy
+		icon = GFX_focus_ARK_przemysl_alkoholowy
+		prerequisite = { focus = ARK_trzysta_procent focus = ARK_eksport }
+		x = 1
+		y = 1
+		relative_position_id = ARK_trzysta_procent
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = ARK_ksiezycowka
+		icon = GFX_focus_ARK_ksiezycowka
+		prerequisite = { focus = ARK_przemysl_alkoholowy }
+		x = 0
+		y = 1
+		relative_position_id = ARK_przemysl_alkoholowy
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
 			}
 		}
 	}
@@ -77,7 +358,7 @@ focus_tree = {
 		continue_if_invalid = yes
 		cancel_if_invalid = no
 		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_POLITICS }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_political_power = 150
 			swap_ideas = {
@@ -102,7 +383,7 @@ focus_tree = {
 		}
 
 		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT } 
+		search_filters = { FOCUS_FILTER_POLITICAL } 
 		completion_reward = {
 			country_event = arkazja.0
 		}

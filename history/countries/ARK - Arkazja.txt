@@ -35,6 +35,7 @@ set_popularities = {
 }
 
 add_ideas = {
+	export_focus
 	ARK_chujowa_armia
 	ARK_oligarchiczna_konstytucja
 }
