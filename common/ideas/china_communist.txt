@@ -1,6 +1,47 @@
 ideas = {
+	hidden_ideas = {
+		PRC_brak_strat_idea = {
+
+			picture = prc_brak_strat
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				org_loss_at_low_org_factor = -0.2
+				org_loss_when_moving = -0.2
+			}
+		}
+		PRC_wincyj_broni_idea = {
+
+			picture = prc_wincyj_broni
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+			}
+
+			removal_cost = -1
+
+			equipment_bonus = {
+				infantry_equipment = {
+					instant = yes
+					build_cost_ic = -0.2
+				}
+			}
+			
+		}
+	}
 	country = {
-		PRC_socjal = {
+		PRC_socjal_idea = {
 
 			picture = generic_democratic_drift_bonus
 
@@ -27,7 +68,7 @@ ideas = {
 		}
 	
 	
-		PRC_connection = {
+		PRC_connection_idea = {
 
 			picture = PRC_demokracja
 
@@ -52,7 +93,7 @@ ideas = {
 			}
 		}
 
-		PRC_lead_the_minor_democracies = {
+		PRC_lead_the_minor_democracies_idea = {
 
 			picture = prc_lead_the_minor_democracies
 
@@ -70,6 +111,43 @@ ideas = {
 				democratic_drift = 0.05
 			}
 		}
+		PRC_gotowi_idea = {
+
+			picture = prc_gotowi
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				mobilization_speed = 0.3
+				recruitable_population_factor = 0.1
+			}
+		}
+		PRC_everyman_idea = {
+
+			picture = prc_everyman
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				training_time_army_factor = -0.3
+				army_attack_factor = -0.05
+			}
+		}
+
 	
 	}
 }

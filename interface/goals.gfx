@@ -1,7 +1,15 @@
 spriteTypes = {	
 	SpriteType = { 
+	name = "GFX_goal_prc_kamikaze"
+	texturefile = "gfx/interface/goals/goal_prc_kamikaze.dds"
+	}
+	SpriteType = { 
 	name = "GFX_goal_prc_global"
 	texturefile = "gfx/interface/goals/goal_prc_global.dds"
+	}
+	SpriteType = { 
+	name = "GFX_goal_prc_fala"
+	texturefile = "gfx/interface/goals/goal_prc_fala.dds"
 	}
 	SpriteType = { 
 	name = "GFX_goal_prc_communism"

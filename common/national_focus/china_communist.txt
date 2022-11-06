@@ -119,7 +119,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_timed_idea = {
-				idea = PRC_socjal
+				idea = PRC_socjal_idea
 				days = 1000
 			}
 		}
@@ -222,10 +222,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			add_timed_idea = {
-				idea = PRC_connection
-				days = 365
-			}
+			add_ideas = PRC_connection_idea
 		}
 	}
 	focus = {
@@ -330,7 +327,7 @@ focus_tree = {
 					}
 				}
 				add_opinion_modifier = { target = PRC modifier = large_increase }
-				add_timed_idea = { idea = PRC_lead_the_minor_democracies days = 1095 }
+				add_timed_idea = { idea = PRC_lead_the_minor_democracies_idea days = 1095 }
 			}
 		}
 	}
@@ -459,6 +456,315 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+		}
+	}
+
+	### Wojsko
+
+	focus = {
+		id = PRC_wojsko
+		icon = GFX_goal_generic_build_tank
+		
+		x = 13
+		y = 0
+		cost = 5
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			army_experience = 25
+			navy_experience = 25
+			air_experience = 25
+		}
+	}
+	focus = {
+		id = PRC_armia
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = PRC_wojsko}
+		
+		x = -2
+		y = 1
+		cost = 10
+		relative_position_id = PRC_wojsko
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = PRC_army
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = PRC_fala
+		icon = GFX_goal_prc_fala
+		prerequisite = { focus = PRC_armia}
+		
+		x = -1
+		y = 1
+		cost = 10
+		mutually_exclusive = { focus =  PRC_nowa_armia}
+		relative_position_id = PRC_armia
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = PRC_fala
+				cost_reduction = 0.5
+				uses = 1
+				category = cat_mass_assault
+			}
+		}
+	}
+	focus = {
+		id = PRC_nowa_armia
+		icon = GFX_focus_chi_whampoa_military_academy
+		prerequisite = { focus = PRC_armia}
+		
+		x = 1
+		y = 1
+		cost = 10
+		mutually_exclusive = { focus =  PRC_fala}
+		relative_position_id = PRC_armia
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = PRC_nowa_armia
+				cost_reduction = 0.5
+				uses = 1
+				category = cat_mobile_warfare
+			}
+		}
+	}
+	focus = {
+		id = PRC_army_rails
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = PRC_fala focus = PRC_nowa_armia}
+		
+		x = 1
+		y = 1
+		cost = 10
+		relative_position_id = PRC_fala
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			build_railway = {
+				level = 1
+				build_only_on_allied = yes
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = PRC
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 11752
+				target_province = 8049
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = yes
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = PRC
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 7418
+				target_province = 8049
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = yes
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = PRC
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 7940
+				target_province = 8049
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = yes
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = PRC
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 7940
+				target_province = 4709
+			}
+			
+		}
+	}
+	#fala
+	focus = {
+		id = PRC_gotowi
+		icon = GFX_goal_unknown
+		prerequisite = { focus = PRC_fala}
+		
+		x = -1
+		y = 1
+		cost = 10
+		relative_position_id = PRC_fala
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_ideas = PRC_gotowi_idea
+		}
+	}
+	focus = {
+		id = PRC_jak_jp
+		icon = GFX_goal_prc_kamikaze
+		prerequisite = { focus = PRC_gotowi}
+		
+		x = -1
+		y = 1
+		cost = 5
+		relative_position_id = PRC_gotowi
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			set_rule = {
+				can_use_kamikaze_pilots = yes
+			}
+		}
+	}
+	focus = {
+		id = PRC_everyman
+		icon = GFX_goal_unknown
+		prerequisite = { focus = PRC_gotowi}
+		
+		x = 1
+		y = 1
+		cost = 10
+		relative_position_id = PRC_gotowi
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_ideas = PRC_everyman_idea
+		}
+	}
+	#nowa armia
+	focus = {
+		id = PRC_wincyj_broni
+		icon = GFX_focus_secret_rearmament
+		prerequisite = { focus = PRC_nowa_armia}
+		
+		x = 1
+		y = 1
+		cost = 10
+		relative_position_id = PRC_nowa_armia
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_ideas = PRC_wincyj_broni_idea
+		}
+	}
+	focus = {
+		id = PRC_nowe_technologie
+		icon = GFX_goal_generic_army_tanks
+		prerequisite = { focus = PRC_wincyj_broni}
+		
+		x = -1
+		y = 1
+		cost = 10
+		relative_position_id = PRC_wincyj_broni
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_tech_bonus = {
+				name = PRC_nowe_technologie
+				bonus = 1.0
+				uses = 3
+				category = infantry_weapons
+				category = artillery
+				category = motorized_equipment
+				category = armor
+			}
+			
+		}
+	}
+	focus = {
+		id = PRC_brak_strat
+		icon = GFX_goal_unknown
+		prerequisite = { focus = PRC_wincyj_broni}
+		
+		x = 1
+		y = 1
+		cost = 10
+		relative_position_id = PRC_wincyj_broni
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_ideas = PRC_brak_strat_idea
 		}
 	}
 }
