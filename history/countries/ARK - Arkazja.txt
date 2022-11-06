@@ -16,7 +16,14 @@ set_technology = {
 }
 
 set_convoys = 1
-recruit_character = ARK_natt_falkenhausen
+recruit_character = ARK_natt_falkenhausen 
+recruit_character = ARK_emperor_natt
+recruit_character = ARK_dylan_falkenhausen
+recruit_character = ARK_bimbosz_rambolowicz
+recruit_character = ARK_anton_rausberg
+recruit_character = ARK_missing
+recruit_character = ARK_patryk_onfrojewski
+recruit_character = ARK_sikalafa
 set_politics = {
 	ruling_party = democratic
 	last_election = "1935.9.8"

@@ -1,34 +1,34 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_portrait_prc_li_jishen"
+		name = GFX_portrait_prc_li_jishen
 		texturefile = "gfx/leaders/PRC/portrait_PRC_li_jishen.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_prc_li_jishen_small"
+		name = GFX_portrait_prc_li_jishen_small
 		texturefile = "gfx/leaders/PRC/portrait_PRC_li_jishen_small.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_ROM_nicolae_ceausescu"
+		name = GFX_portrait_ROM_nicolae_ceausescu
 		texturefile = "gfx/leaders/ROM/portrait_ROM_nicolae_ceausescu.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_ROM_michael_i"
+		name = GFX_portrait_ROM_michael_i
 		texturefile = "gfx/leaders/ROM/portrait_ROM_michael_i.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_ROM_petre_dumitrescu"
+		name = GFX_portrait_ROM_petre_dumitrescu
 		texturefile = "gfx/leaders/ROM/portrait_ROM_petre_dumitrescu.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_ROM_ion_antonescu"
+		name = GFX_portrait_ROM_ion_antonescu
 		texturefile = "gfx/leaders/ROM/portrait_ROM_ion_antonescu.dds"
 	}
 
     spriteType = {
-		name = "GFX_portrait_ROM_corneliu_zelea_codreanu"
+		name = GFX_portrait_ROM_corneliu_zelea_codreanu
 		texturefile = "gfx/leaders/ROM/portrait_ROM_corneliu_zelea_codreanu.dds"
 	}
 
@@ -101,14 +101,78 @@ spriteTypes = {
 		name = GFX_portrait_ARK_natt_falkenhausen_small
 		texturefile = "gfx/leaders/ARK/portrait_ARK_natt_falkenhausen_small.dds"
 	}
+	spriteType = {
+		name = GFX_portrait_ARK_dylan_falkenhausen
+		texturefile = "gfx/leaders/ARK/portrait_ARK_dylan_falkenhausen.dds"
+	}
 	
 	spriteType = {
-		name = "GFX_portrait_FSS_kokendbal_large"
+		name = GFX_portrait_ARK_dylan_falkenhausen_small
+		texturefile = "gfx/leaders/ARK/portrait_ARK_dylan_falkenhausen_small.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_ARK_emperor_natt
+		texturefile = "gfx/leaders/ARK/portrait_ARK_emperor_natt.dds"
+	}
+	
+	spriteType = {
+		name = GFX_portrait_ARK_emperor_natt_small
+		texturefile = "gfx/leaders/ARK/portrait_ARK_emperor_natt_small.dds"
+	}
+
+	spriteType = {
+		name = GFX_portrait_ARK_bimbosz_rambolowicz
+		texturefile = "gfx/leaders/ARK/portrait_ARK_bimbosz_rambolowicz.dds"
+	}
+	
+	spriteType = {
+		name = GFX_portrait_ARK_bimbosz_rambolowicz_small
+		texturefile = "gfx/leaders/ARK/portrait_ARK_bimbosz_rambolowicz_small.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_ARK_sikalafa
+		texturefile = "gfx/leaders/ARK/portrait_ARK_sikalafa.dds"
+	}
+	
+	spriteType = {
+		name = GFX_portrait_ARK_sikalafa_small
+		texturefile = "gfx/leaders/ARK/portrait_ARK_sikalafa_small.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_ARK_anton_rausberg
+		texturefile = "gfx/leaders/ARK/portrait_ARK_anton_rausberg.dds"
+	}
+	
+	spriteType = {
+		name = GFX_portrait_ARK_anton_rausberg_small
+		texturefile = "gfx/leaders/ARK/portrait_ARK_anton_rausberg_small.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_ARK_missing
+		texturefile = "gfx/leaders/ARK/portrait_ARK_missing.dds"
+	}
+	
+	spriteType = {
+		name = GFX_portrait_ARK_missing_small
+		texturefile = "gfx/leaders/ARK/portrait_ARK_missing_small.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_ARK_patryk_onfrojewski
+		texturefile = "gfx/leaders/ARK/portrait_ARK_patryk_onfrojewski.dds"
+	}
+	
+	spriteType = {
+		name = GFX_portrait_ARK_patryk_onfrojewski_small
+		texturefile = "gfx/leaders/ARK/portrait_ARK_patryk_onfrojewski_small.dds"
+	}
+	
+	spriteType = {
+		name = GFX_portrait_FSS_kokendbal_large
 		texturefile = "gfx/leaders/FSS/portrait_FSS_kokendbal.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_fss_kokendbal_small"
-		texturefile = "gfx/leaders/FSS/portrait_kokendbal_small.dds"
+		name = GFX_portrait_fss_kokendbal_small
+		texturefile = "gfx/leaders/FSS/portrait_FSS_kokendbal_small.dds"
 	}
 
 	spriteType = {

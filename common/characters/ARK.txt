@@ -13,7 +13,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = socialism
-			traits = { dislikes_germany sigma_male }
+			traits = { sigma_male }
 			expire = "1965.1.1"
 			desc = ARK_NATT_FALKENHAUSEN_DESC
 		}
@@ -26,4 +26,162 @@ characters = {
 			logistics_skill=2
 		}
 	}
+	ARK_dylan_falkenhausen = {
+		name = ARK_DYLAN_FALKENHAUSEN
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ARK_dylan_falkenhausen
+				small = GFX_portrait_ARK_dylan_falkenhausen_small
+			}
+			army = {
+				large = GFX_portrait_ARK_dylan_falkenhausen
+				small = GFX_portrait_ARK_dylan_falkenhausen_small
+		    }
+		}
+		country_leader = {
+			ideology = satanism
+			traits = { sigma_male }
+			expire = "1965.1.1"
+			desc = ARK_DYLAN_FALKENHAUSEN_DESC
+		}
+	}
+	ARK_emperor_natt = {
+		name = ARK_EMPEROR_NATT
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ARK_emperor_natt
+				small = GFX_portrait_ARK_emperor_natt_small
+			}
+			army = {
+				large = GFX_portrait_ARK_emperor_natt
+				small = GFX_portrait_ARK_emperor_natt_small
+		    }
+		}
+		country_leader = {
+			ideology = absolutism
+			traits = { sigma_male }
+			expire = "1965.1.1"
+			desc = ARK_EMPEROR_NATT_DESC
+		}
+	}
+	ARK_bimbosz_rambolowicz = {
+		name = ARK_BIMBOSZ_RAMBOLOWICZ
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ARK_bimbosz_rambolowicz
+				small = GFX_portrait_ARK_bimbosz_rambolowicz_small
+			}
+			army = {
+				large = GFX_portrait_ARK_bimbosz_rambolowicz
+				small = GFX_portrait_ARK_bimbosz_rambolowicz_small
+		    }
+		}
+		country_leader = {
+			ideology = gen_nazism
+			traits = {  }
+			expire = "1965.1.1"
+			desc = ARK_BIMBOSZ_RAMBOLOWICZ_DESC
+		}
+		corps_commander = {
+			traits = { trait_mountaineer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	ARK_anton_rausberg = {
+		name = ARK_ANTON_RAUSBERG
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ARK_anton_rausberg
+				small = GFX_portrait_ARK_anton_rausberg_small
+			}
+			army = {
+				large = GFX_portrait_ARK_anton_rausberg
+				small = GFX_portrait_ARK_anton_rausberg_small
+		    }
+		}
+		country_leader = {
+			ideology = maoism
+			traits = {  }
+			expire = "1965.1.1"
+			desc = ARK_ANTON_RAUSBERG_DESC
+		}
+		corps_commander = {
+			traits = { winter_specialist }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	ARK_sikalafa = {
+		name = ARK_SIKALAFA
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ARK_sikalafa
+				small = GFX_portrait_ARK_sikalafa_small
+			}
+			army = {
+				large = GFX_portrait_ARK_sikalafa
+				small = GFX_portrait_ARK_sikalafa_small
+		    }
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+			expire = "1965.1.1"
+			desc = ARK_SIKALAFA_DESC
+		}
+	}
+	ARK_patryk_onfrojewski = {
+		name = ARK_PATRYK_ONFROJEWSKI
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ARK_patryk_onfrojewski
+				small = GFX_portrait_ARK_patryk_onfrojewski_small
+			}
+			army = {
+				large = GFX_portrait_ARK_patryk_onfrojewski
+				small = GFX_portrait_ARK_patryk_onfrojewski_small
+		    }
+		}
+		country_leader = {
+			ideology = anarchocapitalism
+			traits = {  }
+			expire = "1965.1.1"
+			desc = ARK_PATRYK_ONFROJEWSKI_DESC
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	ARK_missing = {
+		name = ARK_MISSING
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ARK_missing
+				small = GFX_portrait_ARK_missing_small
+			}
+			army = {
+				large = GFX_portrait_ARK_missing
+				small = GFX_portrait_ARK_missing_small
+		    }
+		}
+		country_leader = {
+			ideology = anarchoprimitivism
+			traits = {  }
+			expire = "1965.1.1"
+			desc = ARK_MISSING_DESC
+		}
+	}
+
 }

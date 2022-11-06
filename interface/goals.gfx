@@ -53,8 +53,32 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/focus_ARK_naprawa_drog.dds"			
 	}
 	SpriteType = {
-	name = "GFX_focus_ARK_autostrada"
-	texturefile = "gfx/interface/goals/focus_ARK_autostrada.dds"			
+	name = "GFX_focus_ARK_tory"
+	texturefile = "gfx/interface/goals/focus_ARK_tory.dds"			
+	}
+	SpriteType = {
+		name = "GFX_focus_ARK_wyborowa"
+		texturefile = "gfx/interface/goals/focus_ARK_wyborowa.dds"			
+	}
+	SpriteType = {
+		name = "GFX_focus_ARK_przemysl_alkoholowy"
+		texturefile = "gfx/interface/goals/focus_ARK_przemysl_alkoholowy.dds"			
+	}
+	SpriteType = {
+		name = "GFX_focus_ARK_huta_katowice"
+		texturefile = "gfx/interface/goals/focus_ARK_huta_katowice.dds"			
+	}
+	SpriteType = {
+		name = "GFX_focus_ARK_huta_zabrze"
+		texturefile = "gfx/interface/goals/focus_ARK_huta_zabrze.dds"			
+	}
+	SpriteType = {
+		name = "GFX_focus_ARK_trzysta_procent"
+		texturefile = "gfx/interface/goals/focus_ARK_trzysta_procent.dds"			
+	}
+	SpriteType = {
+		name = "GFX_focus_ARK_eksport"
+		texturefile = "gfx/interface/goals/focus_ARK_eksport.dds"			
 	}
 
 	#### Generic continuous goal icons

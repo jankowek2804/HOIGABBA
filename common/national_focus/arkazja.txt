@@ -143,8 +143,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARK_autostrada
-		icon = GFX_focus_ARK_autostrada
+		id = ARK_tory
+		icon = GFX_focus_ARK_tory
 		prerequisite = { focus = ARK_naprawa_drog }
 		x = 0
 		y = 1
@@ -298,8 +298,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARK_ksiezycowka
-		icon = GFX_focus_ARK_ksiezycowka
+		id = ARK_wyborowa
+		icon = GFX_focus_ARK_wyborowa
 		prerequisite = { focus = ARK_przemysl_alkoholowy }
 		x = 0
 		y = 1
@@ -318,6 +318,9 @@ focus_tree = {
 					level = 2
 					instant_build = yes
 				}
+			}
+			add_ideas = {
+				ARK_wyborowa_idea
 			}
 		}
 	}

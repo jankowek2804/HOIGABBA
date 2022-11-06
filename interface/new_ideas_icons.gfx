@@ -26,5 +26,9 @@ spriteTypes = {
 		name = "GFX_idea_ARK_three_year_plan_idea"
 		texturefile = "gfx/interface/ideas/ARK_three_year_plan_idea.dds"
 	}	
+	spriteType = {
+		name = "GFX_idea_ARK_wyborowa_idea"
+		texturefile = "gfx/interface/ideas/ARK_wyborowa_idea.dds"
+	}
 			
 }
