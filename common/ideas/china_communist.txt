@@ -39,6 +39,23 @@ ideas = {
 			}
 			
 		}
+		PRC_samo = {
+
+			picture = prc_samo
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
 	}
 	country = {
 		PRC_socjal_idea = {
@@ -147,7 +164,31 @@ ideas = {
 				army_attack_factor = -0.05
 			}
 		}
+		PRC_wielki_skok_idea = {
 
-	
+			picture = PRC_wielki_skok_idea
+
+			available = {
+			}
+
+			cancel = {
+			}
+			
+			removal_cost = -1
+
+			allowed = {
+				original_tag = PRC
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				production_speed_industrial_complex_factor = 0.5 
+				industrial_capacity_factory	= 0.1
+			}
+		}
 	}
 }

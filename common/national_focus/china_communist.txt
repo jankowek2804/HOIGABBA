@@ -1,4 +1,4 @@
-﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_POLITICAL}
 ### search_filters = {FOCUS_FILTER_RESEARCH}
 ### search_filters = {FOCUS_FILTER_INDUSTRY}
 ### search_filters = {FOCUS_FILTER_STABILITY}
@@ -465,7 +465,7 @@ focus_tree = {
 		id = PRC_wojsko
 		icon = GFX_goal_generic_build_tank
 		
-		x = 13
+		x = 16
 		y = 0
 		cost = 5
 
@@ -481,12 +481,13 @@ focus_tree = {
 			air_experience = 25
 		}
 	}
+	##ARMIA
 	focus = {
 		id = PRC_armia
 		icon = GFX_goal_generic_army_doctrines
 		prerequisite = { focus = PRC_wojsko}
 		
-		x = -2
+		x = -5
 		y = 1
 		cost = 10
 		relative_position_id = PRC_wojsko
@@ -679,7 +680,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PRC_everyman
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ETH_freedom_at_gunpoint
 		prerequisite = { focus = PRC_gotowi}
 		
 		x = 1
@@ -765,6 +766,405 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
 			add_ideas = PRC_brak_strat_idea
+		}
+	}
+	##FLOTA
+	focus = {
+		id = PRC_flota
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		prerequisite = { focus = PRC_wojsko}
+		
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = PRC_wojsko
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = PRC_navy
+				cost_reduction = 0.5
+				uses = 1
+				category = naval_doctrine
+			}
+		}
+	}
+	focus = {
+		id = PRC_stocznie
+		icon = GFX_goal_generic_construct_naval_dockyard
+		prerequisite = { focus = PRC_flota}
+		
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = PRC_flota
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			610 = {
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			609 = {
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+	}
+	focus = {
+		id = PRC_desanty
+		icon = GFX_goal_generic_amphibious_assault
+		prerequisite = { focus = PRC_stocznie}
+		
+		x = 3
+		y = 1
+		cost = 10
+		relative_position_id = PRC_stocznie
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_tech_bonus = {
+				name = PRC_desanty
+				bonus = 1.0
+				uses = 1
+				category = tp_tech
+			}
+			
+		}
+	}
+	focus = {
+		id = PRC_suby
+		icon = GFX_goal_generic_navy_submarine
+		prerequisite = { focus = PRC_stocznie}
+		mutually_exclusive = { focus =  PRC_bflota}
+		x = -1
+		y = 1
+		cost = 10
+		relative_position_id = PRC_stocznie
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_tech_bonus = {
+				name = PRC_suby
+				bonus = 1.0
+				uses = 1
+				category = ss_tech
+			}
+			
+		}
+	}
+	focus = {
+		id = PRC_bflota
+		icon = GFX_goal_generic_navy_cruiser
+		prerequisite = { focus = PRC_stocznie}
+		mutually_exclusive = { focus =  PRC_suby}
+		x = 1
+		y = 1
+		cost = 10
+		relative_position_id = PRC_stocznie
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_tech_bonus = {
+				name = PRC_suby
+				bonus = 1.0
+				uses = 1
+				category = bb_tech
+			}
+			
+		}
+	}
+	focus = {
+		id = PRC_flotad
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		prerequisite = { focus = PRC_suby focus = PRC_bflota }
+		
+		x = 1
+		y = 1
+		cost = 10
+		relative_position_id = PRC_suby
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = PRC_navy
+				cost_reduction = 0.5
+				uses = 1
+				category = naval_doctrine
+			}
+		}
+	}
+	##LOTNICTWO
+	focus = {
+		id = PRC_lotnictwo
+		icon = GFX_goal_generic_air_doctrine
+		prerequisite = { focus = PRC_wojsko}
+		
+		x = 5
+		y = 1
+		cost = 10
+		relative_position_id = PRC_wojsko
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = PRC_air
+				cost_reduction = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+		}
+	}
+	focus = {
+		id = PRC_lotniska
+		icon = GFX_goal_generic_build_airforce
+		prerequisite = { focus = PRC_lotnictwo}
+		
+		x = 1
+		y = 1
+		cost = 10
+		relative_position_id = PRC_lotnictwo
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			605 = {
+				add_building_construction = {
+					type = air_base
+					level = 3
+					instant_build = yes
+				}
+			}
+			608 = {
+				add_building_construction = {
+					type = air_base
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = PRC_modele_samolotow
+		icon = GFX_goal_generic_air_production
+		prerequisite = { focus = PRC_lotnictwo}
+		
+		x = -1
+		y = 1
+		cost = 10
+		relative_position_id = PRC_lotnictwo
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_tech_bonus = {
+				name = PRC_modele_samolotow
+				bonus = 1.0
+				uses = 2
+				category = air_equipment
+			}
+			
+		}
+	}
+	focus = {
+		id = PRC_mysliwce
+		icon = GFX_goal_generic_air_fighter
+		prerequisite = { focus = PRC_modele_samolotow focus = PRC_lotniska}
+		
+		x = 1
+		y = 1
+		cost = 10
+		relative_position_id = PRC_modele_samolotow
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_tech_bonus = {
+				name = PRC_mysliwce
+				bonus = 1.0
+				uses = 1
+				category = light_fighter
+			}
+			
+		}
+	}
+	focus = {
+		id = PRC_doktryna_powietrzna
+		icon = GFX_goal_generic_air_doctrine
+		prerequisite = { focus = PRC_mysliwce }
+		
+		x = -2
+		y = 1
+		cost = 10
+		relative_position_id = PRC_mysliwce
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_tech_bonus = {
+				name = PRC_doktryna_powietrzna
+				bonus = 1.0
+				uses = 1
+				category = air_doctrine
+			}
+			
+		}
+	}
+	focus = {
+		id = PRC_lotnictwo_morskie
+		icon = GFX_goal_generic_air_naval_bomber
+		prerequisite = { focus = PRC_mysliwce }
+		
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = PRC_mysliwce
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_tech_bonus = {
+				name = PRC_lotnictwo_morskie
+				bonus = 1.0
+				uses = 2
+				category = naval_air
+			}
+			
+		}
+	}
+	focus = {
+		id = PRC_bombowce
+		icon = GFX_goal_generic_air_bomber
+		prerequisite = { focus = PRC_mysliwce }
+		
+		x = 2
+		y = 1
+		cost = 10
+		relative_position_id = PRC_mysliwce
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_tech_bonus = {
+				name = PRC_bombowce
+				bonus = 1.0
+				uses = 2
+				category = tactical_bomber
+				category = cat_strategic_bomber
+			}
+			
+		}
+	}
+	###PRZEMYSŁ
+	focus = {
+		id = PRC_wielki_skok
+		icon = GFX_goal_generic_construction
+		
+		x = 25
+		y = 0
+		cost = 10
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_tech_bonus = {
+				name = PRC_przemysl
+				bonus = 1.0
+				uses = 1
+				category = construction_tech
+			}
+			add_ideas = PRC_wielki_skok_idea
+		}
+	}
+	focus = {
+		id = PRC_samo
+		icon = GFX_focus_ITA_peasants_rise
+		prerequisite = { focus = PRC_wielki_skok }
+		
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = PRC_wielki_skok
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_ideas = PRC_samo
 		}
 	}
 }
