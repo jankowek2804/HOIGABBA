@@ -110,7 +110,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Oktawian August"
 	desc = "POLITICS_RME_OA_DESC"
-	picture = ""
+	picture = "portrait_RME_oktawian_august.dds"
 	ideology = conservatism
 	traits = {
 		#

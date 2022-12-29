@@ -84,7 +84,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Don Ciccio"
 	desc = ""
-	picture = ""
+	picture = "portrait_SIC_don_ciccio.dds"
 	ideology = oligarchism
 	traits = {
 		#
