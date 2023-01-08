@@ -1,0 +1,41 @@
+################
+# SUPER EVENTS #
+################
+
+add_namespace = super
+add_namespace = super_info
+
+#PRC#
+
+country_event = {	#prc_mao
+	id = super.1
+	title = super.1.t
+	desc = super.1.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+		CHI = {
+			exists = no
+		}
+		PRC = {
+			exists = yes
+		}
+	}
+
+	option = {
+		name = super.1.a
+		
+        set_global_flag = PRC_MAO
+		set_global_flag = Super_Event_Visible
+		play_song = "super_prc_mao"
+		
+		#PRC_MAO Flag
+		#set_global_flag = Super_PRC_MAO
+	}
+}

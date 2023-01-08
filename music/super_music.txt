@@ -1,0 +1,8 @@
+music_station = "super_station"
+music = {
+	song = "super_prc_mao"
+	chance = {
+		factor = 0
+	}
+}
+

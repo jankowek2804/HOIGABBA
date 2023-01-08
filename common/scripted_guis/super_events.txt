@@ -1,0 +1,36 @@
+scripted_gui = {
+
+	sp_event_window = {
+		window_name = "sp_event_window"
+		context_type = player_context
+
+		visible = {
+			has_global_flag = Super_Event_Visible
+		}
+		
+		triggers = {
+			Super_Event_Image_prc_mao_visible = {
+				has_global_flag = PRC_MAO
+			}
+		}
+		
+		
+		
+		############
+		###BUTTON###
+		############
+		
+		effects = {
+			sp_event_close_button_click = {
+				clr_global_flag = Super_Event_Visible
+				
+				if = {
+					limit = {
+						has_global_flag = PRC_MAO
+					}
+					clr_global_flag = PRC_MAO
+				}
+			}
+		}
+	}
+}
