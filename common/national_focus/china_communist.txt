@@ -1127,7 +1127,7 @@ focus_tree = {
 		id = PRC_wielki_skok
 		icon = GFX_goal_generic_construction
 		
-		x = 25
+		x = 26
 		y = 0
 		cost = 10
 
@@ -1136,7 +1136,7 @@ focus_tree = {
 		}
 
 		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_RESEARCH }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			add_tech_bonus = {
 				name = PRC_przemysl
@@ -1145,6 +1145,69 @@ focus_tree = {
 				category = construction_tech
 			}
 			add_ideas = PRC_wielki_skok_idea
+		}
+	}
+	focus = {
+		id = PRC_w_glebi
+		icon = GFX_focus_generic_industry_1
+		prerequisite = { focus = PRC_wielki_skok }
+		
+		x = -2
+		y = 1
+		cost = 10
+		relative_position_id = PRC_wielki_skok
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			760 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			618 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+	}
+	focus = {
+		id = PRC_do_wojny
+		icon = GFX_focus_secret_rearmament
+		prerequisite = { focus = PRC_w_glebi }
+		
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = PRC_w_glebi
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			621 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			add_ideas = PRC_do_wojny
 		}
 	}
 	focus = {
@@ -1162,9 +1225,10 @@ focus_tree = {
 		}
 
 		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_RESEARCH }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			add_ideas = PRC_samo
 		}
 	}
+	
 }

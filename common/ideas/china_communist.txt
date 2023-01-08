@@ -56,6 +56,23 @@ ideas = {
 				consumer_goods_factor = -0.05
 			}
 		}
+		PRC_do_wojny = {
+
+			picture = prc_do_wojny
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_arms_factory_factor = 0.15
+			}
+		}
 	}
 	country = {
 		PRC_socjal_idea = {
