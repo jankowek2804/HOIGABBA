@@ -100,6 +100,8 @@
  polpotism_desc:0 "§Y(Polpotyzm)§!\n\nIdeologia będąca kambodżańską wersją maoizmu, stworzonym przez Polpota maoizmem na sterydach"
  ho_chi_minh:0 "Myśl Ho Chi Minha"
  ho_chi_minh_desc:0 "§Y(Myśl Ho Chi Minha)§!\n\nWietnamski odpowiednik marksizmu wzorowany na postaci Ho Chi Minha i postulatach wysuwanych przez Vietkong"
+ ecofascism:0 "Ekofaszyzm"
+ ecofascism_desc:0 "§Y(Ekofaszyzm)§!\n\nA ty hejtujesz czy pomagasz? Ekofaszyzm to ideologia faszystowska za główny cel obierająca ekologię, lub ekologiczny populizm. Za przykład można podać Hobokowego Ninję z Podlasia"
  
  ARK_fascism_party:0 "NFA"
  ARK_fascism_party_long:0 "Narodowy Front Arkazji"
@@ -147,6 +149,13 @@
  MOL_monarchism_party:0 "Zwolennicy Jana-Cuzy"
  WAL_monarchism_party:0 "Vlad Palownik"
  WAL_esotericism_party:0 "Vlad Palownik"
+ POD_democratic_party:0 "Biuro Interwencji Obywatelskich"
+ POD_fascism_party:0 "Białystok XXI wieku"
+ POD_fascism_party_eco:0 "Federacja Zielonych"
+ POD_communism_party:0 "Podlaska Partia Bolszewicka"
+ POD_meutrality_party:0 "Bombaska junta wojskowa"
+ POD_esotericism_party:0 "Boży Odleżynator Niebios"
+ POD_anarchist_party:0 "Frajerzy spod bramki"
  
  
  GER_fascism_party:0 "NSDAP"

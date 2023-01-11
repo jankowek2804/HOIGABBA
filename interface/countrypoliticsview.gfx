@@ -628,6 +628,11 @@ spriteTypes = {
 		name = "GFX_ideology_tribal"
 		texturefile = "gfx/interface/ideologies/tribal.dds"
 	}
+
+	spriteType = {
+		name = "GFX_ideology_ecofascism"
+		texturefile = "gfx/interface/ideologies/ecofascism.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_ideology_unknown"

@@ -78,7 +78,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = gen_nazism
-			traits = {  }
+			traits = {  } 
 			expire = "1965.1.1"
 			desc = ARK_BIMBOSZ_RAMBOLOWICZ_DESC
 		}

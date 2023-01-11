@@ -1,0 +1,202 @@
+characters = {
+	POD_krzysztof_kononowicz = {
+		name = POD_krzysztof_kononowicz
+		portraits = {
+			civilian = {
+				large = GFX_portrait_POD_krzysztof_kononowicz
+				small = GFX_portrait_POD_krzysztof_kononowicz_small
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = { }
+			expire = "1965.1.1"
+			desc = POD_KRZYSZTOF_KONONOWICZ_DESC
+		}
+	}
+
+	POD_krzysztof_kononowicz_kom = {
+		name = POD_krzysztof_kononowicz_kom
+		portraits = {
+			civilian = {
+				large = GFX_portrait_POD_krzysztof_kononowicz_kom
+				small = GFX_portrait_POD_krzysztof_kononowicz_kom_small
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			traits = { }
+			expire = "1965.1.1"
+			desc = POD_KRZYSZTOF_KONONOWICZ_KOM_DESC
+		}
+	}
+
+	POD_swiety_konon = {
+		name = POD_swiety_konon
+		portraits = {
+			civilian = {
+				large = GFX_portrait_POD_swiety_konon
+				small = GFX_portrait_POD_swiety_konon_small
+			}
+		}
+		country_leader = {
+			ideology = misticism
+			traits = { }
+			expire = "1965.1.1"
+			desc = POD_SWIETY_KONON_DESC
+		}
+	}
+
+	POD_major_suchodolski = {
+		name = POD_major_suchodolski
+		portraits = {
+			civilian = {
+				large = GFX_portrait_POD_major_suchodolski
+				small = GFX_portrait_POD_major_suchodolski_small
+			}
+			army = {
+				large = GFX_portrait_POD_major_suchodolski
+				small = GFX_portrait_POD_major_suchodolski_small
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = { }
+			expire = "1965.1.1"
+			desc = POD_MAJOR_SUCHODOLSKI_DESC
+		}
+		field_marshal = {
+			traits = { }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=1
+		}
+	}
+
+	POD_adam_czeczetkowicz = {
+		name = POD_adam_czeczetkowicz
+		portraits = {
+			civilian = {
+				large = GFX_portrait_POD_adam_czeczetkowicz
+				small = GFX_portrait_POD_adam_czeczetkowicz_small
+			}
+			army = {
+				large = GFX_portrait_POD_adam_czeczetkowicz
+				small = GFX_portrait_POD_adam_czeczetkowicz_small
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = { }
+			expire = "1965.1.1"
+			desc = POD_ADAM_CZECZETKOWICZ_DESC
+		}
+	}
+
+	POD_rafal_kosno = {
+		name = POD_rafal_kosno
+		portraits = {
+			civilian = {
+				large = GFX_portrait_POD_rafal_kosno
+				small = GFX_portrait_POD_rafal_kosno_small
+			}
+			army = {
+				large = GFX_portrait_POD_rafal_kosno
+				small = GFX_portrait_POD_rafal_kosno_small
+			}
+		}
+		country_leader = {
+			ideology = ecofascism
+			traits = { }
+			expire = "1965.1.1"
+			desc = POD_RAFAL_KOSNO_DESC
+		}
+	}
+
+	POD_wieslaw_choinski = {
+		name = POD_wieslaw_choinski
+		portraits = {
+			civilian = {
+				large = GFX_portrait_POD_wieslaw_choinski
+				small = GFX_portrait_POD_wieslaw_choinski_small
+			}
+			army = {
+				large = GFX_portrait_POD_wieslaw_choinski
+				small = GFX_portrait_POD_wieslaw_choinski_small
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	POD_mexicano = {
+		name = POD_mexicano
+		portraits = {
+			civilian = {
+				large = GFX_portrait_POD_mexicano
+				small = GFX_portrait_POD_mexicano_small
+			}
+			army = {
+				large = GFX_portrait_POD_mexicano
+				small = GFX_portrait_POD_mexicano_small
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 4
+		}
+	}
+
+	POD_jan_euborodo = {
+		name = POD_jan_euborodo
+		portraits = {
+			civilian = {
+				large = GFX_portrait_POD_jan_euborodo
+				small = GFX_portrait_POD_jan_euborodo_small
+			}
+			army = {
+				large = GFX_portrait_POD_jan_euborodo
+				small = GFX_portrait_POD_jan_euborodo_small
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+
+	POD_frajerzy = {
+		name = POD_frajerzy
+		portraits = {
+			civilian = {
+				large = GFX_portrait_POD_frajerzy
+				small = GFX_portrait_POD_frajerzy_small
+			}
+		}
+		country_leader = {
+			ideology = anarchy
+			traits = { }
+			expire = "1965.1.1"
+			desc = POD_FRAJERZY_DESC
+		}
+	}
+
+
+
+}

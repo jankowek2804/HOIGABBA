@@ -220,4 +220,13 @@ spriteTypes = {
 		name = GFX_portrait_CAM_lon_nol_small
 		texturefile = "gfx/leaders/CAM/portrait_CAM_lon_nol_small.dds"
 	}
+
+	spriteType = {
+		name = GFX_portrait_POD_krzysztof_kononowicz
+		texturefile = "gfx/leaders/POD/portrait_POD_krzysztof_kononowicz.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_POD_krzysztof_kononowicz_small
+		texturefile = "gfx/leaders/POD/portrait_POD_krzysztof_kononowicz_small.dds"
+	}
 }
