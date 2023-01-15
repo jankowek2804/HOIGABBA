@@ -8,6 +8,12 @@ defined_text = {
         }
         localization_key = "sp_event_prc_mao"
     }
+    text = {
+        trigger = {
+            has_global_flag = WAL_VLAD
+        }
+        localization_key = "sp_event_wal_vlad"
+    }
 }
 
 #Remarks
@@ -20,6 +26,12 @@ defined_text = {
         }
         localization_key = "sp_event_prc_mao_REMARK"
     }
+    text = { 
+        trigger = {
+            has_global_flag = WAL_VLAD
+        }
+        localization_key = "sp_event_wal_vlad_REMARK"
+    }
 }
 
 #Quotes
@@ -31,5 +43,11 @@ defined_text = {
             has_global_flag = PRC_MAO
         }
         localization_key = "sp_event_prc_mao_QUOTE"
+    }
+    text = {
+        trigger = {
+            has_global_flag = WAL_VLAD
+        }
+        localization_key = "sp_event_wal_vlad_QUOTE"
     }
 }

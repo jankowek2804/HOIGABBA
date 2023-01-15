@@ -24,4 +24,8 @@ spriteTypes = {
 		name = "GFX_sp_event_prc_mao"
 		textureFile = "/gfx/sp_events/Super_prc_mao.dds"
 	}
-	
+	spriteType = {
+		name = "GFX_sp_event_wal_vlad"
+		textureFile = "/gfx/sp_events/Super_wal_vlad.dds"
+	}
+}

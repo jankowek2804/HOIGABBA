@@ -33,7 +33,3 @@ set_popularities = {
 	neutrality = 16
 	esotericism = 6
 }
-
-add_ideas = {
-
-}

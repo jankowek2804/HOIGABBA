@@ -229,4 +229,76 @@ spriteTypes = {
 		name = GFX_portrait_POD_krzysztof_kononowicz_small
 		texturefile = "gfx/leaders/POD/portrait_POD_krzysztof_kononowicz_small.dds"
 	}
+	spriteType = {
+		name = GFX_portrait_POD_krzysztof_kononowicz_kom
+		texturefile = "gfx/leaders/POD/portrait_POD_krzysztof_kononowicz_kom.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_POD_krzysztof_kononowicz_kom_small
+		texturefile = "gfx/leaders/POD/portrait_POD_krzysztof_kononowicz_kom_small.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_POD_swiety_konon
+		texturefile = "gfx/leaders/POD/portrait_POD_swiety_konon.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_POD_swiety_konon_small
+		texturefile = "gfx/leaders/POD/portrait_POD_swiety_konon_small.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_POD_major_suchodolski
+		texturefile = "gfx/leaders/POD/portrait_POD_major_suchodolski.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_POD_major_suchodolski_small
+		texturefile = "gfx/leaders/POD/portrait_POD_major_suchodolski_small.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_POD_adam_czeczetkowicz
+		texturefile = "gfx/leaders/POD/portrait_POD_adam_czeczetkowicz.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_POD_adam_czeczetkowicz_small
+		texturefile = "gfx/leaders/POD/portrait_POD_adam_czeczetkowicz_small.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_POD_rafal_kosno
+		texturefile = "gfx/leaders/POD/portrait_POD_rafal_kosno.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_POD_rafal_kosno_small
+		texturefile = "gfx/leaders/POD/portrait_POD_rafal_kosno_small.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_POD_wieslaw_choinski
+		texturefile = "gfx/leaders/POD/portrait_POD_wieslaw_choinski.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_POD_wieslaw_choinski_small
+		texturefile = "gfx/leaders/POD/portrait_POD_wieslaw_choinski_small.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_POD_mexicano
+		texturefile = "gfx/leaders/POD/portrait_POD_mexicano.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_POD_mexicano_small
+		texturefile = "gfx/leaders/POD/portrait_POD_mexicano_small.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_POD_jan_euborodo
+		texturefile = "gfx/leaders/POD/portrait_POD_jan_euborodo.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_POD_jan_euborodo_small
+		texturefile = "gfx/leaders/POD/portrait_POD_jan_euborodo_small.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_POD_frajerzy
+		texturefile = "gfx/leaders/POD/portrait_POD_frajerzy.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_POD_frajerzy_small
+		texturefile = "gfx/leaders/POD/portrait_POD_frajerzy_small.dds"
+	}
 }

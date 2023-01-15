@@ -2,4 +2,7 @@
  sp_event_prc_mao:0 "Mao Zedong jednoczy Chiny!"
  sp_event_prc_mao_QUOTE:0 "Dla osiągnięcia celu politycznego można poświęcić w ofierze połowę ludzkości. \n- Mao Zedong"
  sp_event_prc_mao_REMARK:0 "Nie ma budowania bez burzenia"
+ sp_event_wal_vlad:0 "Vlad Palownik tworzy imperium!"
+ sp_event_wal_vlad_QUOTE:0 "Zabiliśmy 23 884 Turków i Bułgarów, nie licząc tych, których spaliliśmy w ich domach lub których głów nasi żołnierze nie odcięli. \n- Vlad Palownik"
+ sp_event_wal_vlad_REMARK:0 "Czego jeszcze pragniecie?"
  

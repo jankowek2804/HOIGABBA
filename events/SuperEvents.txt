@@ -39,3 +39,46 @@ country_event = {	#prc_mao
 		#set_global_flag = Super_PRC_MAO
 	}
 }
+country_event = {	#wal_vlad
+	id = super.2
+	title = super.2.t
+	desc = super.2.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+
+	hidden = no
+
+	trigger = {
+		ROM = {
+			exists = no
+		}
+		MOL = {
+			exists = no
+		}
+		BUL = {
+			exists = no
+		}
+		TUR = {
+			exists = no
+		}
+		WAL = {
+			exists = yes
+		}
+	}
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires super.2" }
+
+	option = {
+		name = super.2.a
+		
+        set_global_flag = WAL_VLAD
+		set_global_flag = Super_Event_Visible
+		hidden_effect = {
+			play_song = "super_wal_vlad"
+		}
+		
+	}
+}

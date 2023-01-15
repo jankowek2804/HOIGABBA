@@ -18,6 +18,11 @@ guiTypes = {
 		iconType = {
 			name = "Super_Event_Image_prc_mao"
 			spriteType = "GFX_sp_event_prc_mao"
+			position = {x = 0 y = 0} 
+		}
+		iconType = {
+			name = "Super_Event_Image_wal_vlad"
+			spriteType = "GFX_sp_event_wal_vlad"
 			position = {x = 0 y = 0}
 		}
 		

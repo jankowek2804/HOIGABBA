@@ -2,4 +2,7 @@ music = {
 	name = "super_prc_mao"
 	file = "Red_Sun.ogg"
 }
-
+music = {
+	name = "super_wal_vlad"
+	file = "lelita.ogg"
+}
