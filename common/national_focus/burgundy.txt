@@ -1,0 +1,52 @@
+focus_tree = {
+	id = burgundy_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = OSB
+		}
+	}
+	
+
+	default = no
+
+	continuous_focus_position = { x = 20 y = 1000 }
+
+	focus = {
+		id = OSB_our_place
+		icon = GFX_goal_osb_our_place
+	#	prerequisite = { focus = }
+	#	mutually_exclusive = { focus =  }
+		x = 5
+		y = 0
+	#	relative_position_id = 
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+}
