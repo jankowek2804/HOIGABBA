@@ -1,0 +1,10 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_bop_OSB_AH"
+		texturefile = "gfx/interface/bop/bop_OSB_AH.dds"
+	}
+	SpriteType = {
+		name = "GFX_bop_OSB_HH"
+		texturefile = "gfx/interface/bop/bop_OSB_HH.dds"
+	}
+}

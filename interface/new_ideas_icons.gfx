@@ -30,5 +30,14 @@ spriteTypes = {
 		name = "GFX_idea_ARK_wyborowa_idea"
 		texturefile = "gfx/interface/ideas/ARK_wyborowa_idea.dds"
 	}
-			
+
+	### BURGUNDIA ###
+	spriteType = {
+		name = "GFX_idea_OSB_resistance"
+		texturefile = "gfx/interface/ideas/OSB_resistance.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_OSB_regime_building"
+		texturefile = "gfx/interface/ideas/OSB_regime_building.dds"
+	}
 }

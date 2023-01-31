@@ -1,0 +1,41 @@
+ideas = {
+	country ={
+		OSB_resistance ={
+			picture = GFX_idea_OSB_resistance
+			available = {
+			}
+			cancel = {
+			}
+			removal_cost = -1
+			allowed = {
+				original_tag = OSB
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_weekly = -0.01
+				no_compliance_gain = 1
+			}
+		}
+		OSB_regime_building = {
+			picture = GFX_idea_OSB_regime_building
+			available = {
+			}
+			cancel = {
+			}
+			removal_cost = -1
+			allowed = {
+				original_tag = OSB
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				production_speed_buildings_factor = 0.5
+				required_garrison_factor = 0.1
+				resistance_decay_on_our_occupied_states = -0.5
+			}
+		}
+	}
+}

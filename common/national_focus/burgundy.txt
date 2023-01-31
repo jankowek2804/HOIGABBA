@@ -42,11 +42,17 @@ focus_tree = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-
 		}
 
 		completion_reward = {
-
+			set_power_balance = {
+				id = OSB_party_bop
+				set_default = yes
+			}
+			add_timed_idea = {
+				idea = OSB_regime_building
+				days = 365
+			}
 		}
 	}
 }

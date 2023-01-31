@@ -1,0 +1,14 @@
+characters={
+	OSB_adolf_hitler={
+		name= "Adolf Hitler"
+		portraits={
+			civilian={
+				large=GFX_portrait_GER_adolf_hitler
+			}
+		}
+		country_leader={
+			ideology=nazism
+			traits={ dictator }
+		}
+	}
+}
