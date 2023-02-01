@@ -23,7 +23,7 @@ focus_tree = {
 		y = 0
 	#	relative_position_id = 
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -53,6 +53,189 @@ focus_tree = {
 				idea = OSB_regime_building
 				days = 365
 			}
+		}
+	}
+	focus = {
+		id = OSB_anti_resistance
+		icon = GFX_goal_osb_anti_resistance
+		prerequisite = { focus = OSB_our_place }
+	#	mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = OSB_our_place
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+			remove_ideas = OSB_resistance
+		}
+	}
+	focus = {
+		id = OSB_industry
+		icon = GFX_goal_osb_industry
+		prerequisite = { focus = OSB_anti_resistance }
+	#	mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = OSB_anti_resistance
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+			785 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			29 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = OSB_our_own_reichtag
+		icon = GFX_goal_osb_reichtag
+		prerequisite = { focus = OSB_industry }
+	#	mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = OSB_industry
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+			country_event = burgundia.0
+		}
+	}
+	focus = {
+		id = OSB_himmler
+		icon = GFX_goal_HH
+		prerequisite = { focus = OSB_our_own_reichtag }
+		mutually_exclusive = { focus =  OSB_hitler }
+		x = -1
+		y = 1
+		relative_position_id = OSB_our_own_reichtag
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OSB_hitler
+		icon = GFX_goal_HH
+		prerequisite = { focus = OSB_our_own_reichtag }
+		mutually_exclusive = { focus =  OSB_himmler }
+		x = 1
+		y = 1
+		relative_position_id = OSB_our_own_reichtag
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
 		}
 	}
 }

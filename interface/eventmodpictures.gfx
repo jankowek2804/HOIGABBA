@@ -8,5 +8,9 @@ spriteTypes = {
 		name = "GFX_kochampiwo"
 		texturefile = "gfx/event_pictures/kochampiwo.dds"
 	}
-	
+	#burgundia
+	spriteType = {
+		name = "GFX_new_reichtag"
+		texturefile = "gfx/event_pictures/reichtag.dds"
+	}
 }

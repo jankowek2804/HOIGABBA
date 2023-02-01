@@ -1,4 +1,16 @@
 spriteTypes = {	
+	SpriteType = {
+	name = "GFX_goal_osb_reichtag"
+	texturefile = "gfx/interface/goals/focus_OSB_reichtag.dds"
+	}
+	SpriteType = {
+	name = "GFX_goal_osb_industry"
+	texturefile = "gfx/interface/goals/focus_OSB_industry.dds"
+	}
+	SpriteType = {
+	name = "GFX_goal_osb_anti_resistance"
+	texturefile = "gfx/interface/goals/focus_OSB_anti_resistance.dds"
+	}
 	SpriteType = { 
 	name = "GFX_goal_osb_our_place"
 	texturefile = "gfx/interface/goals/focus_OSB_our_place.dds"

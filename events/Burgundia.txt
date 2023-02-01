@@ -1,0 +1,27 @@
+#Burgundia
+add_namespace = burgundia
+
+#reichtag
+country_event = {
+	id = burgundia.0
+	title = burgundia.0.t
+	desc = burgundia.0.d
+	picture = GFX_new_reichtag
+	is_triggered_only = yes
+	option = {
+		name = burgundia.0.a
+		ai_chance = { factor = 50 }
+		add_power_balance_value = {
+			id = OSB_party_bop
+			value = -0.50
+		}
+	}
+	option = {
+		name = burgundia.0.b
+		ai_chance = { factor = 50 }
+		add_power_balance_value = {
+			id = OSB_party_bop
+			value = 0.10
+		}
+	}
+}
