@@ -1,4 +1,12 @@
-spriteTypes = {	
+spriteTypes = {
+	SpriteType = {
+	name = "GFX_goal_osb_heinrich"
+	texturefile = "gfx/interface/goals/focus_OSB_heinrich.dds"
+	}	
+	SpriteType = {
+	name = "GFX_goal_osb_adolf"
+	texturefile = "gfx/interface/goals/focus_OSB_adolf.dds"
+	}
 	SpriteType = {
 	name = "GFX_goal_osb_reichtag"
 	texturefile = "gfx/interface/goals/focus_OSB_reichtag.dds"

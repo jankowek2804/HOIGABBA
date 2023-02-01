@@ -174,7 +174,7 @@ focus_tree = {
 	}
 	focus = {
 		id = OSB_himmler
-		icon = GFX_goal_HH
+		icon = GFX_goal_osb_heinrich
 		prerequisite = { focus = OSB_our_own_reichtag }
 		mutually_exclusive = { focus =  OSB_hitler }
 		x = -1
@@ -203,11 +203,15 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_power_balance_value = {
+				id = OSB_party_bop
+				value = -0.50
+			}
 		}
 	}
 	focus = {
 		id = OSB_hitler
-		icon = GFX_goal_HH
+		icon = GFX_goal_osb_adolf
 		prerequisite = { focus = OSB_our_own_reichtag }
 		mutually_exclusive = { focus =  OSB_himmler }
 		x = 1
@@ -236,6 +240,10 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_power_balance_value = {
+				id = OSB_party_bop
+				value = 0.10
+			}
 		}
 	}
 }
