@@ -10,7 +10,7 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = burgundia.0.a
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 0 }
 		add_power_balance_value = {
 			id = OSB_party_bop
 			value = -0.50
@@ -18,10 +18,26 @@ country_event = {
 	}
 	option = {
 		name = burgundia.0.b
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 100 }
 		add_power_balance_value = {
 			id = OSB_party_bop
 			value = 0.10
 		}
+	}
+}
+#
+country_event = {
+	id = burgundia.1
+	title = burgundia.1.t
+	desc = burgundia.1.d
+	picture = GFX_new_reichtag
+	is_triggered_only = yes
+	option = {
+		name = burgundia.1.a
+		ai_chance = { factor = 50 }
+	}
+	option = {
+		name = burgundia.1.b
+		ai_chance = { factor = 50 }
 	}
 }

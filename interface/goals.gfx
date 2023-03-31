@@ -1,5 +1,25 @@
 spriteTypes = {
 	SpriteType = {
+	name = "GFX_goal_osb_likwidacja"
+	texturefile = "gfx/interface/goals/focus_OSB_likwidacja.dds"
+	}
+	SpriteType = {
+	name = "GFX_goal_osb_porozumienie_adolf"
+	texturefile = "gfx/interface/goals/focus_OSB_porozumienie_adolf.dds"
+	}
+	SpriteType = {
+	name = "GFX_goal_osb_przewrot"
+	texturefile = "gfx/interface/goals/focus_OSB_przewrot.dds"
+	}
+	SpriteType = {
+	name = "GFX_goal_osb_porozumienie"
+	texturefile = "gfx/interface/goals/focus_OSB_porozumienie.dds"
+	}
+	SpriteType = {
+	name = "GFX_goal_osb_pokojowo"
+	texturefile = "gfx/interface/goals/focus_OSB_pokojowo.dds"
+	}
+	SpriteType = {
 	name = "GFX_goal_osb_heinrich"
 	texturefile = "gfx/interface/goals/focus_OSB_heinrich.dds"
 	}	

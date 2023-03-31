@@ -172,6 +172,7 @@ focus_tree = {
 			country_event = burgundia.0
 		}
 	}
+	#HIMMLER
 	focus = {
 		id = OSB_himmler
 		icon = GFX_goal_osb_heinrich
@@ -210,6 +211,73 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = OSB_zmiany_w_partii
+		icon = GFX_goal_osb_pokojowo
+		prerequisite = { focus = OSB_himmler }
+		mutually_exclusive = { focus =  OSB_przewrot }
+		x = 0
+		y = 1
+		relative_position_id = OSB_himmler
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OSB_przewrot
+		icon = GFX_goal_osb_przewrot
+		prerequisite = { focus = OSB_himmler }
+		mutually_exclusive = { focus =  OSB_zmiany_w_partii }
+		x = -2
+		y = 1
+		relative_position_id = OSB_himmler
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+		}
+	}
+	#HITLER
+	focus = {
 		id = OSB_hitler
 		icon = GFX_goal_osb_adolf
 		prerequisite = { focus = OSB_our_own_reichtag }
@@ -244,6 +312,72 @@ focus_tree = {
 				id = OSB_party_bop
 				value = 0.10
 			}
+		}
+	}
+	focus = {
+		id = OSB_porozumienie_adolf
+		icon = GFX_goal_osb_porozumienie_adolf
+		prerequisite = { focus = OSB_hitler }
+		mutually_exclusive = { focus =  OSB_likwidacja }
+		x = 0
+		y = 1
+		relative_position_id = OSB_hitler
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OSB_likwidacja
+		icon = GFX_goal_osb_likwidacja
+		prerequisite = { focus = OSB_hitler }
+		mutually_exclusive = { focus =  OSB_porozumienie_adolf }
+		x = 2
+		y = 1
+		relative_position_id = OSB_hitler
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
 		}
 	}
 }
