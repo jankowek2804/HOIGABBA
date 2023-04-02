@@ -3,12 +3,28 @@ characters={
 		name= "Adolf Hitler"
 		portraits={
 			civilian={
-				large=GFX_portrait_GER_adolf_hitler
+				large= Portrait_OSB_AH
 			}
 		}
 		country_leader={
+			expire = "1965.1.1"
 			ideology=nazism
 			traits={ dictator }
+			id=-1
+		}
+	}
+	OSB_rzad_tym={
+		name = "Rząd Tymczasowy"
+		#desc = "POLITICS_RT_DESC"
+		portraits = {
+			civilian = {
+				large = Portrait_OSB_RT
+			}
+		}
+		country_leader = {
+			ideology = nazism
+			expire = "1965.1.1"
+
 		}
 	}
 }

@@ -1,5 +1,13 @@
 spriteTypes = {
 	spriteType = {
+		name = Portrait_OSB_AH
+		textureFile = "gfx/leaders/OSB/Portrait_OSB_AH.dds"
+	}
+	spriteType = {
+		name = Portrait_OSB_RT
+		textureFile = "gfx/leaders/OSB/Portrait_OSB_RT.dds"
+	}
+	spriteType = {
 		name = GFX_portrait_prc_li_jishen
 		texturefile = "gfx/leaders/PRC/portrait_PRC_li_jishen.dds"
 	}

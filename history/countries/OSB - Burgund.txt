@@ -29,15 +29,7 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Rząd Tymczasowy"
-	desc = "POLITICS_RT_DESC"
-	picture = "Portrait_OSB_RT.dds"
-	ideology = nazism
-	traits = {
-		#
-	}
-}
+recruit_character = OSB_rzad_tym
 
 
 create_field_marshal = {

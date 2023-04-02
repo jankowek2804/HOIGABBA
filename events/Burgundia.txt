@@ -34,10 +34,14 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = burgundia.1.a
-		ai_chance = { factor = 50 }
-	}
-	option = {
-		name = burgundia.1.b
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 100 }
+		remove_country_leader_role = {
+			character = OSB_rzad_tym
+			ideology = nazism
+		}
+		promote_character = {
+			character = OSB_adolf_hitler
+			ideology = nazism
+		}
 	}
 }

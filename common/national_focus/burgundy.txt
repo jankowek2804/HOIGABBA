@@ -189,7 +189,10 @@ focus_tree = {
 		}
 
 		available = {
-
+			power_balance_value = {
+				id = OSB_party_bop
+				value < 0.1
+			}
 		}
 		
 		bypass = {
@@ -274,6 +277,32 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			start_civil_war = {
+				ruling_party = esotericism
+				ideology = ROOT
+				size = 0.5
+				states = {
+					29 785 17
+				}
+			}
+			add_popularity = {
+				ideology = esotericism
+				popularity = 0.9
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
+			}
+			random_other_country = {
+				limit = {
+					original_tag = OSB
+					has_government = fascism
+				}
+				promote_character = {
+					character = OSB_adolf_hitler
+					ideology = nazism
+				}
+			}
 		}
 	}
 	#HITLER
@@ -293,7 +322,10 @@ focus_tree = {
 		}
 
 		available = {
-
+			power_balance_value = {
+				id = OSB_party_bop
+				value > 0.5
+			}
 		}
 		
 		bypass = {
@@ -310,7 +342,7 @@ focus_tree = {
 		completion_reward = {
 			add_power_balance_value = {
 				id = OSB_party_bop
-				value = 0.10
+				value = 0.50
 			}
 		}
 	}

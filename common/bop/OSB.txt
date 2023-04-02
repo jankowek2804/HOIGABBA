@@ -22,7 +22,7 @@ OSB_party_bop = {
 			modifier = {
 			}
 			on_activate = {
-				promote_character = OSB_adolf_hitler
+				country_event = burgundia.1
 				log = "Fully AH activated"
 			}
 		}
