@@ -52,6 +52,7 @@ state={
 
 		}
 		add_core_of = FRA
+		add_core_of = OSB
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 4

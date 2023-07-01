@@ -35,13 +35,20 @@ country_event = {
 	option = {
 		name = burgundia.1.a
 		ai_chance = { factor = 100 }
-		remove_country_leader_role = {
-			character = OSB_rzad_tym
-			ideology = nazism
-		}
-		promote_character = {
-			character = OSB_adolf_hitler
-			ideology = nazism
+		OSB = {
+			create_country_leader = {
+				name = "Adolf Hitler"
+				ideology = nazism
+				picture = Portrait_OSB_AH
+				expire = "1965.1.1.1"
+				traits = {
+					dictator
+				}
+			}
+			remove_country_leader_role = {
+				character = OSB_rzad_tym
+				ideology = nazism
+			}
 		}
 	}
 }

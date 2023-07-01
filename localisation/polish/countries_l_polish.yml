@@ -339,8 +339,8 @@
  EST_democratic_DEF:0 "Republika Estońska"
  EST_neutrality:0 "Estonia"
  EST_neutrality_DEF:0 "Estonia"
- EST_communism:1 "Estońska Republika Ludowa"
- EST_communism_DEF:1 "Estońska Republika Ludowa"
+ EST_communism:1 "Bałtycka Republika Ludowa"
+ EST_communism_DEF:1 "Bałtycka Republika Ludowa"
  EST_fascism_ADJ:0 "est."
  EST_democratic_ADJ:0 "est."
  EST_neutrality_ADJ:0 "est."
@@ -3871,4 +3871,8 @@
  SIC_neutrality_ADJ:0 "syc."
  SIC_anarchist_ADJ:0 "syc."
  SIC_subject_ADJ:0 "syc."
+
+ DEN_islamism:0 "Kalifat Skandynawski"
+ DEN_islamism_DEF:0 "Kalifat Skandynawski"
+ DEN_islamism_ADJ:0 "skan."
 

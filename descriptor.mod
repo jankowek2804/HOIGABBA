@@ -9,4 +9,7 @@ tags={
 name="Hearts of Gaming"
 replace_path="gfx/loading_screens"
 replace_path="common/national_focus"
+replace_path="common/ai_strategy_plans"
+replace_path="common/ai_strategy"
+replace_path="common/ai_focuses"
 supported_version="1.12.*"
