@@ -40,4 +40,8 @@ spriteTypes = {
 		name = "GFX_idea_OSB_regime_building"
 		texturefile = "gfx/interface/ideas/OSB_regime_building.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_OSB_party_chang"
+		texturefile = "gfx/interface/ideas/OSB_party_changes.dds"
+	}
 }

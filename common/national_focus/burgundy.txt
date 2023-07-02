@@ -244,6 +244,14 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_timed_idea = {
+				idea = OSB_party_chang
+				days = 365
+			}
+			add_power_balance_value = {
+				id = OSB_party_bop
+				value = -0.30
+			}
 		}
 	}
 	focus = {

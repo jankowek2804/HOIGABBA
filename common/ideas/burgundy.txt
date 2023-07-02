@@ -37,5 +37,22 @@ ideas = {
 				resistance_decay_on_our_occupied_states = -0.5
 			}
 		}
+		OSB_party_chang = {
+			picture = GFX_idea_OSB_party_chang
+			available = {
+			}
+			cancel = {
+			}
+			removal_cost = -1
+			allowed = {
+				original_tag = OSB
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				esotericism_drift = 0.1
+			}
+		}
 	}
 }
