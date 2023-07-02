@@ -376,14 +376,14 @@ create_import = {
 }
 
 set_politics = {
-	ruling_party = monarchism
+	ruling_party = democratic
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 20
-	monarchism = 60
+	democratic = 60
+	monarchism = 20
 	communism = 20
 }
 
